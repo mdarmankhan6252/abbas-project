@@ -3,9 +3,8 @@ import Card from "../../components/Card";
 const Courses = () => {
    return (
       <div className="bg-[#EFF4FC] py-20 rounded-lg  p">
-         <div className="text-center space-y-4 max-w-4xl mx-auto px-3">
-            <h1 className="text-2xl md:text-3xl font-primary font-bold text-gray-800">এই প্রতিযোগিতার যুগে সবাইকে ছাপিয়ে যাওয়ার
-               এখনি সময়</h1>
+         <div className="text-center space-y-4 max-w-2xl mx-auto px-3">
+            <h1 className="text-3xl md:text-4xl font-primary font-bold text-gray-800">Our Courses</h1>
             <p className="font-primary text-[#828080] leading-7 text-lg">ঝাঁপিয়ে পড়ুন এবং আপনার উদ্যোক্তা মনোভাবকে আলিঙ্গন করুন – আপনার আইডিয়াকে বাস্তবে রূপান্তর করার জন্য এখনকার চেয়ে ভাল সময় আর নেই!</p>
          </div>
 
