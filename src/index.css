@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+   --font-primary: "Hind Siliguri", serif;
+   --color-primary: #5271FF
+}
+.btn {
+   font-weight: 500;
+   padding: 10px 30px;
+   background-color: #5271FF;
+   border-radius: 30px;
+   color: white;
+}
+
+.btn:hover{
+   background-color: #4365fe;
+}
+
+.nav > a.active{
+   color: #4365fe;
+}
