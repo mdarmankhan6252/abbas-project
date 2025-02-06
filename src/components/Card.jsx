@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Card = () => {
 
    return (
-      <div className='bg-white p-6 rounded-lg space-y-3'>
+      <div className='bg-white p-6 rounded-lg space-y-3' >
          <img src={image55} alt="" className='w-full' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
             <del className='text-[#fa1111]'>10,0000/</del>

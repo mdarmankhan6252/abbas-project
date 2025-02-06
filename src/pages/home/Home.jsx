@@ -2,6 +2,7 @@ import AboutCourse from "./AboutCourse";
 import Banner from "./Banner";
 import Courses from "./Courses";
 import Guide from "./Guide";
+import WhyCourse from "./WhyCourse";
 
 const Home = () => {
    return (
@@ -10,6 +11,7 @@ const Home = () => {
          <Courses />
          <Guide />
          <AboutCourse />
+         <WhyCourse />
       </div>
    );
 };
