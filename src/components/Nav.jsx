@@ -35,7 +35,7 @@ const Nav = () => {
 
          </div>
          {/* nav links for small screen */}
-         <ul className={`flex  flex-col text-lg nav md:hidden bg-white absolute top-15 duration-500  p-10 pr-32 h-screen space-y-5 ${sidebar ? 'right-0 opacity-100' : '-right-56 opacity-0'}`}>
+         <ul className={`flex  flex-col text-lg nav md:hidden bg-white absolute top-17 duration-500  p-10 pr-32 h-screen space-y-5 ${sidebar ? 'right-0 opacity-100' : '-right-56 opacity-0'}`}>
             <NavLink to="/">হোম</NavLink>
             <NavLink to="/course">কোর্স</NavLink>
             <NavLink to="/e-book">ই-বুক</NavLink>

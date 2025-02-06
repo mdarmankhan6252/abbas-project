@@ -3,7 +3,7 @@ import banner from '../../assets/banner.jfif'
 
 const WhyCourse = () => {
    return (
-      <div>
+      <div className="mx-3">
          <div className="max-w-7xl mx-auto px-8 my-12 py-20 border border-gray-200 rounded-lg flex items-center justify-between gap-6 flex-col md:flex-row" style={{ background: "radial-gradient(at center top, #c2d8f9 0%, #EFF4FC 100%)" }}>
             <div className="space-y-6 basis-[60%]">
                <h1 className="text-3xl sm:text-4xl font-semibold">
