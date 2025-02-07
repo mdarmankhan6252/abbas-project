@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CallUs = () => {
    return (
       <div className="bg-black py-16">
-         <div className="flex items-center justify-between px-3 max-w-7xl mx-auto">
+         <div className="flex sm:items-center sm:justify-between px-3 max-w-7xl mx-auto flex-col sm:flex-row ">
             <div className="text-white space-y-4">
                <h2 className="text-2x
                 md: text-3xl">কথা বলুন আমাদের এক্সপার্ট এর সাথে! কল করুন</h2>
@@ -11,7 +11,7 @@ const CallUs = () => {
 
             </div>
             <div className="pt-4">
-               <Link to='/' className="btn inline-block" style={{ padding: '14px 30px' }}>যোগাযোগ</Link>
+               <Link to='tel:+8801875778050' className="btn inline-block" style={{ padding: '14px 30px' }}>যোগাযোগ</Link>
             </div>
          </div>
       </div>
