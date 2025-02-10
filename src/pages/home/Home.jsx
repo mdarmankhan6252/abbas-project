@@ -1,6 +1,5 @@
 import AboutCourse from "./AboutCourse";
 import Banner from "./Banner";
-import CallUs from "./CallUs";
 import Courses from "./Courses";
 import Guide from "./Guide";
 import Testimonials from "./Testimonials";
@@ -15,7 +14,6 @@ const Home = () => {
          <AboutCourse />
          <WhyCourse />
          <Testimonials />
-         <CallUs />
       </div>
    );
 };

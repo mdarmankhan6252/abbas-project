@@ -23,6 +23,7 @@ const Nav = () => {
                <ul className="items-center space-x-8 text-lg nav hidden md:flex *:hover:text-primary">
                   <NavLink to="/">Home</NavLink>
                   <NavLink to="/course">Course</NavLink>
+                  <NavLink to="/free-course">Free Course</NavLink>
                   <NavLink to="/e-book">E-Book</NavLink>
                </ul>
             </div>

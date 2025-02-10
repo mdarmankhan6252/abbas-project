@@ -1,23 +1,12 @@
+import Course01 from "./Course01";
+
 const Course = () => {
    return (
       <div>
-         
+         <Course01 />
+
       </div>
    );
 };
 
 export default Course;
-
-/*
-banner, 
-title,
-prev_price,
-discount_price,
-lesson: like:30+,
-students,
-video_link,
-description
-
-
-
-*/
