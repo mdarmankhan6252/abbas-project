@@ -40,7 +40,7 @@ const Card = () => {
                   <IoStarSharp />
                </div>
             </div>
-            <Link to='/' className='btn cursor-pointer transition-transform duration-200 hover:-translate-y-1'>
+            <Link to='/' className='btn cursor-pointer transition-transform duration-200 hover:-translate-y-1 '>
                বিস্তারিত
             </Link>
          </div>

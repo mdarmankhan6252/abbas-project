@@ -63,7 +63,7 @@ const Testimonials = () => {
             >
                {testimonials.map((testimonial) => (
                   <SwiperSlide key={testimonial.id} className="mb-12">
-                     <div className="rounded-xl p-6 text-center shadow-[0_0_7px_0] mt-2 mx-3 shadow-gray-300 transition-all  hover:bg-gradient-to-tl hover:from-[#e0e9f6] hover:to-[#fefeff]">
+                     <div className="rounded-xl p-6 text-center shadow-[0_0_7px_0] mt-2 mx-3 shadow-gray-300 transition-all  hover:bg-gradient-to-tl hover:from-[#f5682c0d] hover:to-[#fefeff]">
                         <img src={testimonial.photo} alt={testimonial.name} className="w-16 h-16 rounded-full mx-auto mb-4 object-cover" />
                         <div className='flex items-center justify-center space-x-1 text-amber-400 '>
                            <IoStarSharp />

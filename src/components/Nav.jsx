@@ -21,9 +21,9 @@ const Nav = () => {
                   <img src={logo} alt="logo" className="w-40" />
                </Link>
                <ul className="items-center space-x-8 text-lg nav hidden md:flex *:hover:text-primary">
-                  <NavLink to="/">হোম</NavLink>
-                  <NavLink to="/course">কোর্স</NavLink>
-                  <NavLink to="/e-book">ই-বুক</NavLink>
+                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/course">Course</NavLink>
+                  <NavLink to="/e-book">E-Book</NavLink>
                </ul>
             </div>
             <Link to='/contact' className="btn hidden md:inline-block">

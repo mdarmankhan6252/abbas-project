@@ -12,10 +12,11 @@
    background-color: #5271FF;
    border-radius: 6px;
    color: white;
+   transition: 0.2s;
 }
 
 .btn:hover{
-   background-color: #4365fe;
+   background-color: #F5682C;
 }
 
 .nav > a.active{
