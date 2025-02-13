@@ -8,6 +8,8 @@ import {
 import Root from './layouts/Root';
 import Home from './pages/home/Home';
 import Course from './pages/courses/Course';
+import FreeCourse from './pages/free-course/FreeCourse';
+import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: '/course',
         element: <Course />
+      },
+      {
+        path: '/free-course',
+        element: <FreeCourse />
+      },
+      {
+        path : '/privacy-policy',
+        element : <PrivacyPolicy />
       }
     ]
   },
