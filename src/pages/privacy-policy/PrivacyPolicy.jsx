@@ -72,6 +72,40 @@ const PrivacyPolicy = () => {
             </div>
          </div>
 
+         <div className="space-y-3 pt-10">
+            <h3 className="text-xl font-semibold ">6. Your Rights & Choices</h3>
+            <div>
+               <p className="text-lg font-light">As a user, you have the right to:</p>
+               <ul className="list-disc pl-5 py-5 space-y-3">
+                  <li className="text-lg font-light">Access, update, or delete your personal data.</li>
+
+                  <li className="text-lg font-light">Opt-out of promotional emails.</li>
+                  <li className="text-lg font-light">Process transactions and manage subscriptions.</li>
+                  <li className="text-lg font-light">Request a copy of the information we store about you.</li>
+               </ul>
+            </div>
+         </div>
+
+         <div className="space-y-3 pt-10">
+            <h3 className="text-xl font-semibold ">7. Third-Party Links</h3>
+            <p className="text-lg font-light">Our website may contain links to third-party websites. We are not responsible for their privacy practices, so we encourage you to read their privacy policies before sharing any personal data.</p>
+         </div>
+
+         <div className="space-y-3 pt-10">
+            <h3 className="text-xl font-semibold ">8. Changes to This Privacy Policy</h3>
+            <p className="text-lg font-light">We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated effective date. We recommend checking this page regularly to stay informed.</p>
+         </div>
+
+         <div className="space-y-3 pt-10">
+            <h3 className="text-xl font-semibold ">9. Contact Us</h3>
+            <p className="text-lg font-light">If you have any questions about this Privacy Policy or how we handle your data, please contact us at: EduKing BD</p>
+            <ul>
+               <li className="text-lg font-light">Email: <span className="font-semibold">info@edukingbd.com</span></li>
+               <li className="text-lg font-light">Website: <span className="font-semibold">edukingbd.com</span></li>
+            </ul>
+         </div>
+
+
       </div>
    );
 };
