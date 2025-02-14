@@ -36,7 +36,7 @@ const Banner = () => {
           custom={0}
         >
           <motion.h1 className="text-3xl md:text-4xl font-semibold" variants={textVariants} custom={1}>
-            <span className="text-primary font-bold font-serif">Eduking</span> এর লক্ষ্য সবাই হবে দক্ষ !
+            <span className="text-primary font-bold font-serif text-4xl md:text-5xl">Eduking</span> এর লক্ষ্য সবাই হবে দক্ষ !
           </motion.h1>
           <motion.p className="font-light" variants={textVariants} custom={2}>
             দক্ষতার জগতে নিজেকে এগিয়ে নেওয়ার এখনই সময়
