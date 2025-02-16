@@ -16,7 +16,7 @@ const Footer = () => {
                <p className='font-light'>অনলাইন লাইভ স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম।</p>
                <p className='font-light'>কমিউনিটি -এর সাথে কানেক্টেড থাকতে</p>
                <div className='flex items-center space-x-2 *:text-2xl'>
-                  <Link to=''>
+                  <Link to='https://www.facebook.com/profile.php?id=61572466610055'>
                      <FaFacebookSquare className='text-primary' />
                   </Link>
                   <Link to=''>
