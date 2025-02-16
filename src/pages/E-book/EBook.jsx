@@ -8,9 +8,9 @@ const EBook = () => {
             <img src="https://storex.com.bd/media/book-new.png" alt="" className="w-full" />
          </div>
          <div className="w-full rounded-2xl bg-slate-100 basis-[45%]">
-            <img src={eBook} alt="" className="w-full" />
+            <img src={eBook} alt="" className="w-full rounded-2xl" />
             <div className="flex items-center justify-between p-4">
-               <h3 className="text-xl font-semibold">কন্টেন্ট হ্যাকস</h3>
+               <h3 className="text-xl font-semibold">সাকসেস হ্যাক</h3>
                <div className="text-xl flex items-center space-x-3">
                   <del className="text-gray-800/80">৫০০ টাকা</del>
                   <span className="text-black font-semibold">২৫০ টাকা</span>
