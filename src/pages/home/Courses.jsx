@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 const Courses = () => {
    return (
       <div className="mx-3">
-         <div 
-            className="py-20 rounded-lg max-w-7xl mx-auto px-6 border border-gray-200" 
+         <div
+            className="py-20 rounded-lg max-w-7xl mx-auto px-6 border border-gray-200"
             style={{ background: 'radial-gradient(at center top, #d6e6ff 0%, #EFF4FC 100%)' }}
          >
-            <motion.div 
+            <motion.div
                className="text-center space-y-4 max-w-2xl mx-auto px-3"
                initial={{ opacity: 0, y: -30 }}
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true, amount: 0.3 }}
                transition={{ duration: 0.6 }}
             >
-               <motion.h1 
+               <motion.h1
                   className="text-3xl md:text-4xl font-primary font-bold text-gray-800"
                   initial={{ opacity: 0, y: -20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -24,8 +24,8 @@ const Courses = () => {
                >
                   Our Courses
                </motion.h1>
-               
-               <motion.p 
+
+               <motion.p
                   className="font-primary text-[#828080] leading-7 text-lg"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ const Courses = () => {
                </motion.p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16"
                initial="hidden"
                whileInView="visible"
@@ -49,24 +49,14 @@ const Courses = () => {
                   }
                }}
             >
-               {[1, 2, 3].map((_, index) => (
-                  <motion.div
-                     key={index}
-                     variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { 
-                           opacity: 1, 
-                           y: 0,
-                           transition: {
-                              duration: 0.6,
-                              ease: "easeOut"
-                           }
-                        }
-                     }}
-                  >
-                     <Card />
-                  </motion.div>
-               ))}
+               {/* course and it's path is here */}
+
+               <Card link='/course-01' />
+               <Card link='/course-02' />
+               <Card link='/course-03' />
+
+
+
             </motion.div>
          </div>
       </div>

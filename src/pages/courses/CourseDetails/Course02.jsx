@@ -1,13 +1,14 @@
+
 import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io5";
-import Faq from "./Faq";
+import Faq from "../Faq";
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
 import { MdOutlineViewModule } from "react-icons/md";
-import { RiLiveLine } from "react-icons/ri";
+import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
 
-const Course01 = () => {
+const Course02 = () => {
    const [isOpen, setIsOpen] = useState(false);
 
    const toggleModal = () => setIsOpen(!isOpen);
@@ -15,12 +16,16 @@ const Course01 = () => {
       <div className="pt-16 max-w-7xl mx-auto px-3 flex gap-10  flex-col-reverse md:flex-row">
          {/* about course */}
          <div className="space-y-5 md:basis-[60%]">
-            <h1 className="text-3xl font-bold md:text-4xl">Facebook Ads Mastermind</h1>
+            <h1 className="text-3xl font-bold md:text-4xl">Facebook Ads Mastermind - Course-2</h1>
             <p className="text-gray-900/80 text-base text-justify">ফেসবুকে ইফেক্টিভ এড রান করার জন্য শুরু থেকে যা কিছু জানা প্রয়োজন Customer journey map, Strategy, data analysis এবং facebook marketing এর সকল টুলস সম্ভন্ধে জানতে পারবেন এই কোর্সে।</p>
 
             <p className="text-gray-900/80 text-base text-justify">একটা ক্যাম্পেইনকে কিভাবে optimize করতে হয়, কেম্পেইন স্ট্রাটিজি টা কিভাবে সাজাতে হয়, কিভাবে রিটার্গেটিং করতে হয়, রিটার্গেট এর স্ট্রাটিজি কেমন হবে, কিভাবে ট্রেকিং করতে হয়, ab testing, campaign budget optimization, conversion rate optimization, Ad scaling সবকিছুই পাবেন এই এক কোর্সেই!</p>
 
             <p className="text-gray-900/80 text-base text-justify">প্রফেশনালি মিডিয়া বায়িং সার্ভিস প্রদান কিংবা নিজের বিজনেস কে সামনে এগিয়ে নিয়ে যেতে ফেসবুক এডস এর যা কিছু জানা প্রয়োজন সবকিছুই পাচ্ছেন এক কোর্সে! মেন্টরশিপ তো থাকছেই!</p>
+
+            <Link to='/' className="md:hidden w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
+               কোর্সটি কিনুন
+            </Link>
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
             <div className="flex space-x-4 items-end">
@@ -68,7 +73,7 @@ const Course01 = () => {
                </ul>
             </div>
 
-            <div className="text-2xl flex items-center space-x-2 pt-4">
+            <div className="text-lg md:text-2xl flex items-center space-x-2 pt-4">
                <IoCheckmarkCircleOutline className="text-primary" />
                কিভাবে পেমেন্ট করবেন <Link to='/' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
             </div>
@@ -106,7 +111,7 @@ const Course01 = () => {
                      <del className="text-3xl font-semibold text-red-600">10,000</del>
                      <p className="text-3xl font-semibold text-green-600">4000/-</p>
                   </div>
-                  <Link to='/' className="block w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg">
+                  <Link to='/' className="md:block w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
                      কোর্সটি কিনুন
                   </Link>
                   <ul className="py-4 space-y-1.5">
@@ -143,7 +148,7 @@ const Course01 = () => {
                      <div className="relative pt-[56.25%]">
                         <iframe
                            className="absolute top-0 left-0 w-full h-full rounded-lg"
-                           src="https://www.youtube.com/embed/TzKgojZqO5Y?si=q5wD0heySTho-1Lc"
+                           src="https://www.youtube.com/embed/dT913aGGYFw?si=GqTto7TQpnRobwQG"
                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                            allowFullScreen
                         ></iframe>
@@ -152,8 +157,18 @@ const Course01 = () => {
                </div>
             )}
          </div>
+
+         <div className="fixed right-0 left-0 z-50 w-full bottom-0 md:hidden block">
+            <Link target="_blank" to='https://m.me/mdarmankhan6252' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
+               <RiMessengerLine />
+            </Link>
+            <Link to='/' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
+               কোর্সটি কিনুন
+            </Link>
+         </div>
       </div>
    );
 };
 
-export default Course01;
+
+export default Course02;

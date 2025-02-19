@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { VscChromeClose } from "react-icons/vsc";
 import { CiMenuBurger } from "react-icons/ci";
 import { Link, NavLink } from "react-router-dom";
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 
 const Nav = () => {
    const [sidebar, setSidebar] = useState(false)

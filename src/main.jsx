@@ -14,6 +14,9 @@ import RefundPolicy from './pages/refund-policy/RefundPolicy';
 import TermsCondition from './pages/Terms-and-Condition/TermsCondition';
 import AboutUs from './pages/about-us/AboutUs';
 import EBook from './pages/E-book/EBook';
+import Course01 from './pages/courses/CourseDetails/Course01';
+import Course03 from './pages/courses/CourseDetails/Course03';
+import Course02 from './pages/courses/CourseDetails/Course02';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +54,18 @@ const router = createBrowserRouter([
       {
         path: 'e-book',
         element: <EBook />
+      },
+      {
+        path: '/course-01',
+        element: <Course01 />
+      },
+      {
+        path: '/course-02',
+        element: <Course02 />
+      },
+      {
+        path: '/course-03',
+        element: <Course03 />
       }
     ]
   },

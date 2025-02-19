@@ -1,12 +1,19 @@
+import { motion } from 'framer-motion';
 import { IoIosPlay } from 'react-icons/io';
-import image55 from '../assets/card.jpg'
+import image55 from '../assets/card.jpg';
 import { FaUsers } from 'react-icons/fa';
 import { IoStarSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
-const Card = () => {
 
+const Card = ({ link }) => {
    return (
-      <div className='bg-white p-6 rounded-lg space-y-3' >
+      <motion.div
+         initial={{ scale: 0.4 }}
+         whileInView={{ scale: 1 }} 
+         viewport={{ once: false }} 
+         transition={{ duration: 0.8, ease: "easeOut" }}
+         className='bg-white p-6 rounded-lg space-y-3'
+      >
          <img src={image55} alt="" className='w-full' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
             <del className='text-[#fa1111]'>10,0000/</del>
@@ -40,15 +47,11 @@ const Card = () => {
                   <IoStarSharp />
                </div>
             </div>
-            <Link to='/' className='btn cursor-pointer transition-transform duration-200 hover:-translate-y-1 '>
+            <Link to={link} className='btn cursor-pointer transition-transform duration-200 hover:-translate-y-1 '>
                বিস্তারিত
             </Link>
          </div>
-
-
-
-
-      </div>
+      </motion.div>
    );
 };
 

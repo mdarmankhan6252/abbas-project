@@ -1,9 +1,10 @@
-import Course01 from "./Course01";
+import Courses from "../home/Courses";
 
 const Course = () => {
    return (
-      <div>
-         <Course01 />
+      <div className="pt-12">
+         <Courses />
+         
 
       </div>
    );
