@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { IoIosPlay } from 'react-icons/io';
-import image55 from '../assets/card.jpg';
+import image55 from '../assets/course-1.jpg';
 import { FaUsers } from 'react-icons/fa';
 import { IoStarSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';

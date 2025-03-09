@@ -6,6 +6,7 @@ import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
 import { MdOutlineViewModule } from "react-icons/md";
 import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
+import image from '../../../assets/course-1.jpg'
 
 const Course01 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +16,12 @@ const Course01 = () => {
       <div className="pt-16 max-w-7xl mx-auto px-3 flex gap-10  flex-col-reverse md:flex-row">
          {/* about course */}
          <div className="space-y-5 md:basis-[60%]">
-            <h1 className="text-3xl font-bold md:text-4xl">Facebook Ads Mastermind - Course 1</h1>
-            <p className="text-gray-900/80 text-base text-justify">ফেসবুকে ইফেক্টিভ এড রান করার জন্য শুরু থেকে যা কিছু জানা প্রয়োজন Customer journey map, Strategy, data analysis এবং facebook marketing এর সকল টুলস সম্ভন্ধে জানতে পারবেন এই কোর্সে।</p>
+            <h1 className="text-3xl font-bold md:text-4xl">Mastering YouTube Shorts Secret</h1>
+            <p className="text-gray-900/80 text-base text-justify">আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম! Youtube লক্ষ্য কোটি মানুষের জন্য একটি আয়ের অন্যতম শক্তিশালী উৎস হিসেবে কাজ করে যাচ্ছে ।</p>
 
-            <p className="text-gray-900/80 text-base text-justify">একটা ক্যাম্পেইনকে কিভাবে optimize করতে হয়, কেম্পেইন স্ট্রাটিজি টা কিভাবে সাজাতে হয়, কিভাবে রিটার্গেটিং করতে হয়, রিটার্গেট এর স্ট্রাটিজি কেমন হবে, কিভাবে ট্রেকিং করতে হয়, ab testing, campaign budget optimization, conversion rate optimization, Ad scaling সবকিছুই পাবেন এই এক কোর্সেই!</p>
+            <p className="text-gray-900/80 text-base text-justify"> প্রতিদিন  মিলিয়ন মিলিয়ন কন্টেন্ট ক্রিয়েটর ইউটিউব থেকে আয় করছেন, অনেকেই তাদের চাকরির বিকল্প হিসেবে ইউটিউবকে বেছে নিয়েছেন। আপনি যদি ধৈর্য ও সঠিক গাইডেলিনের মাধ্যমে কাজ করেন, তবে ইউটিউব থেকে আয় করতে পারেন লক্ষ্য লক্ষ্য টাকা।</p>
 
-            <p className="text-gray-900/80 text-base text-justify">প্রফেশনালি মিডিয়া বায়িং সার্ভিস প্রদান কিংবা নিজের বিজনেস কে সামনে এগিয়ে নিয়ে যেতে ফেসবুক এডস এর যা কিছু জানা প্রয়োজন সবকিছুই পাচ্ছেন এক কোর্সে! মেন্টরশিপ তো থাকছেই!</p>
+            <p className="text-gray-900/80 text-base text-justify">আমাদের Mastering Youtube Shorts Secret কোর্স আপনাকে শেখাবে কিভাবে আপনার মোবাইল ফোন ব্যবহার করেই সফল ইউটিউব চ্যানেল দাড় করা যায়  এবং কিভাবে ইউটিউব থেকে নিশ্চিতভাবে লাইফ টাইম  আয় করা যায়।</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
                কোর্সটি কিনুন
@@ -30,8 +31,8 @@ const Course01 = () => {
             <div className="flex space-x-4 items-end">
                <img src="https://i.ibb.co.com/tMttd8HG/armankhan.jpg" alt="" className="w-28 h-28 object-cover rounded-lg" />
                <div>
-                  <h4 className="text-xl font-semibold">MD Arman Khan</h4>
-                  <p className="font-light">CEO, XYZ Company</p>
+                  <h4 className="text-xl font-semibold">Afjal Hosen</h4>
+                  <p className="font-light">Expert Youtuber, With 5+ Years of experience in content creation.</p>
                </div>
             </div>
 
@@ -41,15 +42,23 @@ const Course01 = () => {
                <ul className="py-3 space-y-3">
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">ফেসবুক এডস এর সকল টুলস</p>
+                     <p className="text-gray-700/80"> ইউটিউব ক্যারিয়ার গড়তে পর্যাপ্ত গাইডলাইন ও স্ট্র্যাটেজি।</p>
                   </li>
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">ফেসবুক এডস এর সিক্রেট স্ট্রাটেজি</p>
+                     <p className="text-gray-700/80">মোবাইল ফোন ব্যবহার করে ইউটিউব কনটেন্ট তৈরি করা শেখানো হবে।</p>
                   </li>
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">কম খরচে বেশি সেলস জেনারেশন</p>
+                     <p className="text-gray-700/80">ইউটিউব SEO, মনিটাইজেশন ও আয়ের সঠিক উপায় শেখানো হবে।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">একেবারে বিগিনারদের জন্য সহজ ভাষায় ভিডিও ক্রিয়েশন থেকে আর্নিং পর্যন্ত পূর্ণাঙ্গ কোর্স।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80"> ইউটিউব থেকে কিভাবে মাসে $1000+ বা তার বেশি ইনকাম করা যায়, তার বাস্তবিক গাইডলাইন।</p>
                   </li>
                </ul>
             </div>
@@ -59,20 +68,21 @@ const Course01 = () => {
 
             <div className="space-y-3 py-10">
                <h2 className="text-xl font-semibold text-gray-700">হট লাইন</h2>
-               <p>কোর্স সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন <span className="text-amber-700 font-semibold">+880 1776-825-224</span></p>
+               <p>কোর্স সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন<span className="text-amber-700 font-semibold"><a href="tel:+8801776825224">+8801776825224</a></span></p>
             </div>
 
             <div>
                <h2 className="text-xl font-semibold text-gray-700 pb-3">পেমেন্ট</h2>
                <ul className="list-disc pl-5 ml-2 space-y-2">
                   <li>“কোর্সটি কিনুন” বাটনে ক্লিক করুন</li>
-                  <li>নাম, ফোন নম্বর, আপনার এড্রেস এবং ইমেইল এড্রেস পূরণ করুন</li>
-                  <li>ডানে দেয়া বিকাশ অথবা ফোন নম্বরে সেন্ড মানি করুন</li>
-                  <li>আপনার ফোন নম্বর এবং বিকাশ বা নগদ ট্রাঞ্জেকশন আইডিটি লিখুন</li>
+                  <li>গুগল ফর্মটি পূরণ করুন </li>
+                  <li>ফর্মে দেয়া একাউন্ট নাম্বারে পেমেন্ট সম্পূর্ণ করুন </li>
+                  <li>আপনার ফোন নম্বর এবং পেমেন্ট ট্রাঞ্জেকশন আইডিটি লিখুন</li>
+                  <li>সাবমিট করুন</li>
                </ul>
             </div>
 
-            <div className="text-lg md:text-2xl flex items-center space-x-2 pt-4">
+            <div className="md:text-2xl flex items-center space-x-2 pt-4">
                <IoCheckmarkCircleOutline className="text-primary" />
                কিভাবে পেমেন্ট করবেন <Link to='/' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
             </div>
@@ -86,7 +96,7 @@ const Course01 = () => {
                <div className="p-3 border border-gray-300 rounded-lg">
                   <div className="relative">
                      <img
-                        src="https://www.contentkingbd.com/wp-content/uploads/2024/06/abul-kalam-thumbnail-2-update.jpg"
+                        src={image}
                         alt=""
                         className="w-full rounded-lg"
                      />
