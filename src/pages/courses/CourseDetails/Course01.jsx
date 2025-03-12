@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
-import { MdOutlineViewModule } from "react-icons/md";
+import { MdOutlineViewModule, MdSupportAgent } from "react-icons/md";
 import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
 import image from '../../../assets/course-1.jpg'
+import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
+import { CgCommunity } from "react-icons/cg";
 
 const Course01 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +31,7 @@ const Course01 = () => {
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
             <div className="flex space-x-4 items-end">
-               <img src="https://i.ibb.co.com/tMttd8HG/armankhan.jpg" alt="" className="w-28 h-28 object-cover rounded-lg" />
+               <img src="https://iili.io/3qLqJPS.jpg" alt="" className="w-28 h-28 object-cover rounded-lg" />
                <div>
                   <h4 className="text-xl font-semibold">Afjal Hosen</h4>
                   <p className="font-light">Expert Youtuber, With 5+ Years of experience in content creation.</p>
@@ -126,15 +128,27 @@ const Course01 = () => {
                   <ul className="py-4 space-y-1.5">
                      <li className="flex items-center space-x-2">
                         <IoIosPeople className="text-xl" />
-                        <p className="text-gray-800/90">কোর্সটি করেছেন 254 জন</p>
+                        <p className="text-gray-800/90">কোর্সটি করেছেন ১৭ জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <MdOutlineViewModule className="text-xl" />
-                        <p className="text-gray-800/90">২০ টি মডিউল</p>
+                        <p className="text-gray-800/90">১০ টি মডিউল</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoMdVideocam className="text-xl" />
-                        <p className="text-gray-800/90">৭০+ ভিডিও লেসন</p>
+                        <AiFillForward className="text-xl" />
+                        <p className="text-gray-800/90">Free Resource file</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <AiOutlineYoutube className="text-xl" />
+                        <p className="text-gray-800/90">100k subscriber pauar secret tips</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <MdSupportAgent className="text-xl" />
+                        <p className="text-gray-800/90">24/7 support </p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <CgCommunity className="text-xl" />
+                        <p className="text-gray-800/90">Join Content creation supportive community.</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <RiLiveLine className="text-xl" />

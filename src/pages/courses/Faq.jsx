@@ -38,28 +38,19 @@ const Faq = () => {
          {accordingData?.map((according, index) => (
             <article
                key={index}
-               className="border px-3 border-gray-200 rounded py-3 bg-slate-50"
+               className="border px-3 border-gray-200 rounded py-3 bg-slate-50 overflow-visible"
             >
                <div
-                  className="flex gap-2 cursor-pointer items-center justify-between w-full"
+                  className="flex items-center justify-between cursor-pointer"
                   onClick={() => handleClick(index)}
                >
-                  <h2 className="font-[600] text-lg">
-                     {according.title}
-                  </h2>
-                  <div 
-                     className="p-2" // Added padding to increase touch target area
-                     onClick={(e) => {
-                        e.stopPropagation(); // Stop event propagation
-                        handleClick(index);
-                     }}
-                  >
-                     <FaChevronDown
-                        className={`text-[1.2rem] text-text transition-all duration-300 ${
-                           isAccordingOpen === index ? "rotate-[180deg]" : ""
-                        }`}
-                     />
-                  </div>
+                  <h2 className="font-[600] text-lg">{according.title}</h2>
+
+                  <FaChevronDown
+                     className={`min-w-[1.2rem] text-[1.2rem] text-text transition-all duration-300 ${
+                        isAccordingOpen === index ? "rotate-[180deg]" : ""
+                     }`}
+                  />
                </div>
                <div
                   className={`grid transition-all duration-300 overflow-hidden ease-in-out ${

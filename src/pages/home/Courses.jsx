@@ -1,5 +1,7 @@
-import Card from "../../components/Card";
 import { motion } from "framer-motion";
+import Card1 from "../../components/Card1";
+import Card3 from "../../components/Card3";
+import Card2 from "../../components/Card2";
 
 const Courses = () => {
    return (
@@ -32,7 +34,7 @@ const Courses = () => {
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                >
-                  ঝাঁপিয়ে পড়ুন এবং আপনার উদ্যোক্তা মনোভাবকে আলিঙ্গন করুন – আপনার আইডিয়াকে বাস্তবে রূপান্তর করার জন্য এখনকার চেয়ে ভাল সময় আর নেই!
+                  সফলতার জন্য সঠিক স্কিল দরকার। EduKing BD দেখাচ্ছে বাস্তব অভিজ্ঞতাভিত্তিক সঠিক গাইডলাইন, যা স্বল্প সময়ে আপনার ক্যারিয়ার কয়েকগুন সামনে এগিয়ে নিয়ে যাবে। আপনার আইডিয়াকে বাস্তবে রূপ দিন এবং সাফল্যের শিখরে পৌঁছান!
                </motion.p>
             </motion.div>
 
@@ -51,12 +53,10 @@ const Courses = () => {
             >
                {/* course and it's path is here */}
 
-               <Card link='/course-01' />
-               <Card link='/course-02' />
-               <Card link='/course-03' />
-
-
-
+               <Card1 link='/course-01' />
+               <Card2 link='/course-02' />
+               <Card3 link='/course-03' />
+               
             </motion.div>
          </div>
       </div>

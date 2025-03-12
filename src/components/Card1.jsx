@@ -5,7 +5,7 @@ import { FaUsers } from 'react-icons/fa';
 import { IoStarSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
-const Card = ({ link }) => {
+const Card1 = ({ link }) => {
    return (
       <motion.div
          initial={{ scale: 0.4 }}
@@ -14,13 +14,13 @@ const Card = ({ link }) => {
          transition={{ duration: 0.8, ease: "easeOut" }}
          className='bg-white p-6 rounded-lg space-y-3'
       >
-         <img src={image55} alt="" className='w-full' />
+         <img src={image55} alt="" className='w-full rounded-xl border border-slate-200' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
             <del className='text-[#fa1111]'>10,0000/</del>
             <span className='text-green-600'>4,000/-</span>
          </div>
-         <h4 className='text-xl font-semibold text-blue-950'>Content King Professional</h4>
-         <p className="font-primary text-[#828080] leading-7">অনলাইন উদ্যোক্তাদের জন্য একটি অন্তর্জাতিক মানের একটি কোর্স যেখানে  কনটেন্ট ডেভেলপমেন্টের পাশাপাশি শেখানো হবে ফেসবুক মার্কেটিং এর Exclusive সব ট্রিকস!</p>
+         <h4 className='text-xl font-semibold text-blue-950'>Mastering YouTube Shorts Secret</h4>
+         <p className="font-primary text-[#828080] leading-7">আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম! ....</p>
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
@@ -55,4 +55,4 @@ const Card = ({ link }) => {
    );
 };
 
-export default Card;
+export default Card1;
