@@ -16,8 +16,8 @@ const Card1 = ({ link }) => {
       >
          <img src={image55} alt="" className='w-full rounded-xl border border-slate-200' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
-            <del className='text-[#fa1111]'>10,0000/</del>
-            <span className='text-green-600'>4,000/-</span>
+            <del className='text-[#fa1111]'>2,450/</del>
+            <span className='text-green-600'>1,000/-</span>
          </div>
          <h4 className='text-xl font-semibold text-blue-950'>Mastering YouTube Shorts Secret</h4>
          <p className="font-primary text-[#828080] leading-7">আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম! ....</p>

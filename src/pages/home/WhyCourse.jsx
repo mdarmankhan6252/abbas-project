@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import banner from '../../assets/banner.jfif'
+import banner from '../../assets/banner-2.jpg'
 
 const WhyCourse = () => {
    return (
@@ -21,7 +21,7 @@ const WhyCourse = () => {
                </div>
             </div>
             <div className=" basis-[40%]">
-               <img src={banner} alt="" />
+               <img src={banner} alt="" className="w-full rounded-lg" />
             </div>
          </div>
       </div>

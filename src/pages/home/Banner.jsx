@@ -1,6 +1,6 @@
 import { MdArrowForward } from "react-icons/md";
 import { Link } from "react-router-dom";
-import banner from "../../assets/banner_img.jpeg";
+import banner from "../../assets/banner.jpg";
 
 const Banner = () => {
   return (
