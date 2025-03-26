@@ -20,7 +20,7 @@ const Card1 = ({ link }) => {
             <span className='text-green-600'>1,000/-</span>
          </div>
          <h4 className='text-xl font-semibold text-blue-950'>Mastering YouTube Shorts Secret</h4>
-         <p className="font-primary text-[#828080] leading-7">আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম! ....</p>
+         <p className="font-primary text-[#828080] leading-7">{("আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম!").slice(0, 70)}...</p>
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>

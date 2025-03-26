@@ -3,7 +3,7 @@ import { useState } from "react";
 // react icons
 import { FaChevronDown } from "react-icons/fa6";
 
-const Faq = () => {
+const Faq1 = () => {
    const accordingData = [
       {
          title: "এই কোর্সটি কাদের জন্য উপযুক্ত?",
@@ -69,4 +69,4 @@ const Faq = () => {
    );
 };
 
-export default Faq;
+export default Faq1;

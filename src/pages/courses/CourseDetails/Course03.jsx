@@ -1,11 +1,11 @@
 import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io5";
-import Faq from "../Faq";
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
 import { MdOutlineViewModule } from "react-icons/md";
 import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
+import Faq3 from "../Faq3";
 
 const Course03 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +55,7 @@ const Course03 = () => {
             </div>
 
             {/* faq question */}
-            <Faq />
+            <Faq3 />
 
             <div className="space-y-3 py-10">
                <h2 className="text-xl font-semibold text-gray-700">হট লাইন</h2>

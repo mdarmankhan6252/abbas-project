@@ -1,9 +1,8 @@
 import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io5";
-import Faq from "../Faq";
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { useState } from "react";
-import { IoIosPeople, IoMdVideocam } from "react-icons/io";
+import { IoIosPeople, } from "react-icons/io";
 import { MdOutlineViewModule, MdSupportAgent } from "react-icons/md";
 import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
 import image from '../../../assets/course-1.jpg'

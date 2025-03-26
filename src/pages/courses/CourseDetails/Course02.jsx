@@ -1,12 +1,13 @@
-
+import banner from '../../../assets/course-2.jpg'
 import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io5";
-import Faq from "../Faq";
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
-import { MdOutlineViewModule } from "react-icons/md";
-import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
+import { MdOutlineSupportAgent, MdOutlineViewModule } from "react-icons/md";
+import {  RiMessengerLine } from "react-icons/ri";
+import Faq2 from "../Faq2";
+import { AiOutlineYoutube } from "react-icons/ai";
 
 const Course02 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,12 @@ const Course02 = () => {
       <div className="pt-16 max-w-7xl mx-auto px-3 flex gap-10  flex-col-reverse md:flex-row">
          {/* about course */}
          <div className="space-y-5 md:basis-[60%]">
-            <h1 className="text-3xl font-bold md:text-4xl">Facebook Ads Mastermind - Course-2</h1>
-            <p className="text-gray-900/80 text-base text-justify">ফেসবুকে ইফেক্টিভ এড রান করার জন্য শুরু থেকে যা কিছু জানা প্রয়োজন Customer journey map, Strategy, data analysis এবং facebook marketing এর সকল টুলস সম্ভন্ধে জানতে পারবেন এই কোর্সে।</p>
+            <h1 className="text-3xl font-bold md:text-4xl">Content Creation Pro</h1>
+            <p className="text-gray-900/80 text-base text-justify">আপনি যদি একজন সফল কন্টেন্ট ক্রিয়েটর হতে চান, তাহলে প্রফেশনাল, এনগেজিং এবং আই-ক্যাচিং কন্টেন্ট এর কোনো বিকল্প নেই। আপনার কন্টেন্ট যদি আকর্ষণীয় না হয়, তাহলে কন্টেন্ট ক্রিয়েশনের যাত্রা আপনার জন্য কখনোই সহজ হবে না। কিন্তু যদি আপনার কন্টেন্ট প্রফেশনাল এবং এনগেজিং হয়, তাহলে আপনি খুব দ্রুত ফেইসবুক এবং ইউটিউব থেকে আয়ের সুযোগ তৈরি করতে পারবেন!</p>
 
-            <p className="text-gray-900/80 text-base text-justify">একটা ক্যাম্পেইনকে কিভাবে optimize করতে হয়, কেম্পেইন স্ট্রাটিজি টা কিভাবে সাজাতে হয়, কিভাবে রিটার্গেটিং করতে হয়, রিটার্গেট এর স্ট্রাটিজি কেমন হবে, কিভাবে ট্রেকিং করতে হয়, ab testing, campaign budget optimization, conversion rate optimization, Ad scaling সবকিছুই পাবেন এই এক কোর্সেই!</p>
+            <p className="text-gray-900/80 text-base text-justify">আমাদের Content Creation Pro কোর্সটি বিশেষভাবে ডিজাইন করা হয়েছে, যেখানে আপনার হাতে থাকা মোবাইল ফোনটি ব্যবহার করেই আপনি তৈরি করতে পারবেন আকর্ষণীয় এবং প্রফেশনাল কন্টেন্ট। এই কোর্সে আপনাকে শেখানো হবে কিভাবে খুব কম সময়ে ফেইসবুক এবং ইউটিউব চ্যানেল গড়ে তুলতে হয় এবং এই প্ল্যাটফর্মগুলো থেকে নিশ্চিতভাবে লাইফটাইম আয় করা যায়।</p>
 
-            <p className="text-gray-900/80 text-base text-justify">প্রফেশনালি মিডিয়া বায়িং সার্ভিস প্রদান কিংবা নিজের বিজনেস কে সামনে এগিয়ে নিয়ে যেতে ফেসবুক এডস এর যা কিছু জানা প্রয়োজন সবকিছুই পাচ্ছেন এক কোর্সে! মেন্টরশিপ তো থাকছেই!</p>
+            <p className="text-gray-900/80 text-base text-justify">আমাদের এই <span className="font-bold">Content Creation Pro</span> with <span className="font-bold">Life Changing Successful Content Creation Guideline</span> কোর্সটি আপনার জন্য যাতে পারে লক্ষ্য টাকা প্যাসিভ ইনকাম শুরু করার সুবর্ণ সুযোগ !</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
                কোর্সটি কিনুন
@@ -31,8 +32,8 @@ const Course02 = () => {
             <div className="flex space-x-4 items-end">
                <img src="https://i.ibb.co.com/tMttd8HG/armankhan.jpg" alt="" className="w-28 h-28 object-cover rounded-lg" />
                <div>
-                  <h4 className="text-xl font-semibold">MD Arman Khan</h4>
-                  <p className="font-light">CEO, XYZ Company</p>
+                  <h4 className="text-xl font-semibold">MK Masjed Khan</h4>
+                  <p className="font-light">Content Creation Expert</p>
                </div>
             </div>
 
@@ -42,21 +43,41 @@ const Course02 = () => {
                <ul className="py-3 space-y-3">
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">ফেসবুক এডস এর সকল টুলস</p>
+                     <p className="text-gray-700/80">ক্যামেরার সামনে আত্মবিশ্বাসের সাথে কথা বলার কৌশল</p>
                   </li>
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">ফেসবুক এডস এর সিক্রেট স্ট্রাটেজি</p>
+                     <p className="text-gray-700/80">প্রফেশনাল ভিডিও শুটিং টেকনিক (যেকোনো ক্যামেরা বা মোবাইল দিয়ে)</p>
                   </li>
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">কম খরচে বেশি সেলস জেনারেশন</p>
+                     <p className="text-gray-700/80">CapCut Mobile ব্যবহার করে সহজে কন্টেন্ট এডিটিং</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">প্রফেশনাল ভয়েসওভার টেকনিক (যা আপনার ভিডিওকে আরও Attractive & Engaging করে তুলবে )</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80"> ফেইসবুক এবং ইউটিউব মনিটাইজেশন A to Z (SEO, Effective Trending Strategies, Analytics, Earning Guideline)</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">ইউটিউব এবং ফেইসবুক থেকে কিভাবে লক্ষ্য টাকা প্যাসিভ ইনকাম করা যায়, তার বাস্তবিক গাইডলাইন।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">একেবারে বিগিনারদের জন্য সহজ ভাষায় ভিডিও ক্রিয়েশন থেকে আর্নিং পর্যন্ত পূর্ণাঙ্গ গাইডলাইন।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">ইউটিউব এবং ফেইসবুক অ্যালগরিদম বুঝে কন্টেন্ট প্ল্যানিং এবং ট্রেন্ডিং কন্টেন্ট তৈরি করার টিপস।</p>
                   </li>
                </ul>
             </div>
 
             {/* faq question */}
-            <Faq />
+            <Faq2 />
 
             <div className="space-y-3 py-10">
                <h2 className="text-xl font-semibold text-gray-700">হট লাইন</h2>
@@ -87,7 +108,7 @@ const Course02 = () => {
                <div className="p-3 border border-gray-300 rounded-lg">
                   <div className="relative">
                      <img
-                        src="https://www.contentkingbd.com/wp-content/uploads/2024/06/abul-kalam-thumbnail-2-update.jpg"
+                        src={banner}
                         alt=""
                         className="w-full rounded-lg"
                      />
@@ -117,19 +138,23 @@ const Course02 = () => {
                   <ul className="py-4 space-y-1.5">
                      <li className="flex items-center space-x-2">
                         <IoIosPeople className="text-xl" />
-                        <p className="text-gray-800/90">কোর্সটি করেছেন 254 জন</p>
+                        <p className="text-gray-800/90">কোর্সটি করেছেন 20 জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <MdOutlineViewModule className="text-xl" />
-                        <p className="text-gray-800/90">২০ টি মডিউল</p>
+                        <p className="text-gray-800/90">12 টি মডিউল</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <IoMdVideocam className="text-xl" />
-                        <p className="text-gray-800/90">৭০+ ভিডিও লেসন</p>
+                        <p className="text-gray-800/90">Free Resource file</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <RiLiveLine className="text-xl" />
-                        <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
+                        <AiOutlineYoutube className="text-xl" />
+                        <p className="text-gray-800/90">দ্রুত ফলোয়ার্স ও সাবস্ক্রাইবার পাওয়ার সিক্রেটস </p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <MdOutlineSupportAgent className="text-xl" />
+                        <p className="text-gray-800/90">24/7 support </p>
                      </li>
                   </ul>
                </div>

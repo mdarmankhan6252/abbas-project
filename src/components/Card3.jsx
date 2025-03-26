@@ -20,7 +20,7 @@ const Card3 = ({ link }) => {
             <span className='text-green-600'>1,000/-</span>
          </div>
          <h4 className='text-xl font-semibold text-blue-950'>Ai powered personal branding.</h4>
-         <p className="font-primary text-[#828080] leading-7">অনলাইন উদ্যোক্তাদের জন্য একটি অন্তর্জাতিক মানের একটি কোর্স যেখানে  কনটেন্ট ডেভেলপমেন্টের পাশাপাশি শেখানো হবে ফেসবুক মার্কেটিং এর Exclusive সব ট্রিকস!</p>
+         <p className="font-primary text-[#828080] leading-7">{('অনলাইন উদ্যোক্তাদের জন্য একটি অন্তর্জাতিক মানের একটি কোর্স যেখানে  কনটেন্ট ডেভেলপমেন্টের পাশাপাশি শেখানো হবে ফেসবুক মার্কেটিং এর Exclusive সব ট্রিকস!').slice(0, 70)}...</p>
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
