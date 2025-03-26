@@ -17,6 +17,7 @@ import EBook from './pages/E-book/EBook';
 import Course01 from './pages/courses/CourseDetails/Course01';
 import Course03 from './pages/courses/CourseDetails/Course03';
 import Course02 from './pages/courses/CourseDetails/Course02';
+import Contact from './pages/contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: '/course-03',
         element: <Course03 />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
       }
     ]
   },

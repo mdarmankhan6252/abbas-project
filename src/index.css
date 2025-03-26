@@ -10,9 +10,10 @@
    font-weight: 500;
    padding: 10px 30px;
    background-color: #5271FF;
-   border-radius: 6px;
+   border-radius: 30px;
    color: white;
    transition: 0.2s;
+   box-shadow: 0 5px 15px rgba(1, 7, 61, 0.1);
 }
 
 .btn:hover{
