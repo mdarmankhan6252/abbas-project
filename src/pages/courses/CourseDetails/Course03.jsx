@@ -4,8 +4,10 @@ import { Play } from 'lucide-react';
 import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
 import { MdOutlineViewModule } from "react-icons/md";
-import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
+import { RiLiveLine, RiMessengerLine, RiUserCommunityLine } from "react-icons/ri";
 import Faq3 from "../Faq3";
+import course3 from '../../../assets/course-3.jpg'
+import mentor3 from '../../../assets/mentor3.jpg'
 
 const Course03 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +17,14 @@ const Course03 = () => {
       <div className="pt-16 max-w-7xl mx-auto px-3 flex gap-10  flex-col-reverse md:flex-row">
          {/* about course */}
          <div className="space-y-5 md:basis-[60%]">
-            <h1 className="text-3xl font-bold md:text-4xl">Facebook Ads Mastermind -course - 3</h1>
-            <p className="text-gray-900/80 text-base text-justify">ফেসবুকে ইফেক্টিভ এড রান করার জন্য শুরু থেকে যা কিছু জানা প্রয়োজন Customer journey map, Strategy, data analysis এবং facebook marketing এর সকল টুলস সম্ভন্ধে জানতে পারবেন এই কোর্সে।</p>
+            <h1 className="text-3xl font-bold md:text-4xl">AI Powered Personal Branding</h1>
+            <p className="text-gray-900/80 text-base text-justify">আপনি যদি আপনার প্রফেশনাল ক্যারিয়ারকে এগিয়ে নিতে চান তাহলে নিজের প্রফেশনাল পোর্টফোলিও বিল্ডাপ এর কোন বিকল্প নেই। এই ডিজিটাল ওয়ার্ল্ড প্রতিনিয়ত আপডেট হচ্ছে , আপনি যদি নিজেকে আপডেটেড রাখতে না পারেন এবং তা অবশ্যই আপনার প্রফেশনাল লাইফে প্রকাশ করতে না পারেন তাহলে আপনি অন্যদের থেকে পিছিয়ে পড়বেন তা অবধারিত। </p>
 
-            <p className="text-gray-900/80 text-base text-justify">একটা ক্যাম্পেইনকে কিভাবে optimize করতে হয়, কেম্পেইন স্ট্রাটিজি টা কিভাবে সাজাতে হয়, কিভাবে রিটার্গেটিং করতে হয়, রিটার্গেট এর স্ট্রাটিজি কেমন হবে, কিভাবে ট্রেকিং করতে হয়, ab testing, campaign budget optimization, conversion rate optimization, Ad scaling সবকিছুই পাবেন এই এক কোর্সেই!</p>
+            <p className="text-gray-900/80 text-base text-justify">এই কোর্স টি চলাকালীন সময়েই আপনি আপনার নিজের একটি স্ট্রং প্রফেশনাল পোর্টফোলিও বিল্ডাপ করে ফেলতে পারবেন, এইটাই আমাদের এই কোর্স এর প্রধান বিশেষত্ব। তাহলে আর দেরি কেন?</p>
 
-            <p className="text-gray-900/80 text-base text-justify">প্রফেশনালি মিডিয়া বায়িং সার্ভিস প্রদান কিংবা নিজের বিজনেস কে সামনে এগিয়ে নিয়ে যেতে ফেসবুক এডস এর যা কিছু জানা প্রয়োজন সবকিছুই পাচ্ছেন এক কোর্সে! মেন্টরশিপ তো থাকছেই!</p>
+            <p className="text-gray-900/80 text-base text-justify">আমাদের AI Powered Personal Branding কোর্সটি বিশেষভাবে ডিজাইন করা হয়েছে, যেখানে আপনি Smart AI Tools এর ব্যবহারের মাধ্যমে Professional Social Media Optimization, Personal Portfolio Website Building, Personal Brand Growth, SEO, Professional CV, Resume & Cover Letter Writing, Meta Ad Campaign এবং Freelancing Guideline, Interview Cracking & Client communication Techniques শিখতে পারবেন। যেই স্কিলস এর গুরুত্ব আপনার প্রফেশনাল লাইফ এর প্রতিটি পদক্ষেপে অপরিসিম। </p>
+
+            <p className="text-gray-900/80 text-base text-justify">এটি শুধু একটি কোর্স নয়—এটি আপনার ক্যারিয়ারকে এক নতুন উচ্চতায় নিয়ে যাওয়ার হাতিয়ার। AI-এর শক্তিকে কাজে লাগিয়ে গড়ে তুলুন একটি Strong Professional Portfolio। এখনই নিজেকে আপগ্রেড করুন এবং সফলতার পথে একধাপ এগিয়ে জান। Build Your Brand, Boost Your Career!</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
                কোর্সটি কিনুন
@@ -28,10 +32,10 @@ const Course03 = () => {
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
             <div className="flex space-x-4 items-end">
-               <img src="https://i.ibb.co.com/tMttd8HG/armankhan.jpg" alt="" className="w-28 h-28 object-cover rounded-lg" />
+               <img src={mentor3} alt="" className="w-28 h-28 object-cover rounded-lg" />
                <div>
-                  <h4 className="text-xl font-semibold">MD Arman Khan</h4>
-                  <p className="font-light">CEO, XYZ Company</p>
+                  <h4 className="text-xl font-semibold">S M Sayem</h4>
+                  <p className="font-light">Tech Industry Expert </p>
                </div>
             </div>
 
@@ -41,15 +45,35 @@ const Course03 = () => {
                <ul className="py-3 space-y-3">
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">ফেসবুক এডস এর সকল টুলস</p>
+                     <p className="text-gray-700/80">কিভাবে নিজেকে digital platform-এ establish করবেন এবং আপনার brand value বৃদ্ধি করবেন।</p>
                   </li>
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">ফেসবুক এডস এর সিক্রেট স্ট্রাটেজি</p>
+                     <p className="text-gray-700/80">কিভাবে নিজেকে digital platform-এ establish করবেন এবং আপনার brand value বৃদ্ধি করবেন।</p>
                   </li>
                   <li className="flex items-center space-x-2">
                      <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
-                     <p className="text-gray-700/80">কম খরচে বেশি সেলস জেনারেশন</p>
+                     <p className="text-gray-700/80">Facebook, LinkedIn, Twitter (X) & Instagram professional profile buildup ও grow করার techniques।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">Facebook & Instagram-এ effective ad campaigns চালিয়ে personal brand বা business expand করার কৌশল।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">Domain & Hosting, website setup, customization, & advanced features integration।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">AI-Powered Professional CV, Resume & Cover Letter Writing।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">Job Hunting, Client communication & Freelancing Marketplace Guideline।</p>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                     <IoCheckmarkDoneOutline className="text-blue-600 text-2xl" />
+                     <p className="text-gray-700/80">Real-world project-এ কাজ করার সুযোগ এবং performance-based contest & rewards।</p>
                   </li>
                </ul>
             </div>
@@ -86,7 +110,7 @@ const Course03 = () => {
                <div className="p-3 border border-gray-300 rounded-lg">
                   <div className="relative">
                      <img
-                        src="https://www.contentkingbd.com/wp-content/uploads/2024/06/abul-kalam-thumbnail-2-update.jpg"
+                        src={course3}
                         alt=""
                         className="w-full rounded-lg"
                      />
@@ -107,8 +131,8 @@ const Course03 = () => {
                   </div>
 
                   <div className="flex items-center justify-around py-4">
-                     <del className="text-3xl font-semibold text-red-600">10,000</del>
-                     <p className="text-3xl font-semibold text-green-600">4000/-</p>
+                     <del className="text-3xl font-semibold text-red-600">1,800</del>
+                     <p className="text-3xl font-semibold text-green-600">1000/-</p>
                   </div>
                   <Link to='/' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
                      কোর্সটি কিনুন
@@ -116,19 +140,23 @@ const Course03 = () => {
                   <ul className="py-4 space-y-1.5">
                      <li className="flex items-center space-x-2">
                         <IoIosPeople className="text-xl" />
-                        <p className="text-gray-800/90">কোর্সটি করেছেন 254 জন</p>
+                        <p className="text-gray-800/90">কোর্সটি করেছেন 25 জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <MdOutlineViewModule className="text-xl" />
-                        <p className="text-gray-800/90">২০ টি মডিউল</p>
+                        <p className="text-gray-800/90">12 টি মডিউল</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <IoMdVideocam className="text-xl" />
-                        <p className="text-gray-800/90">৭০+ ভিডিও লেসন</p>
+                        <p className="text-gray-800/90">কোর্স চলাকালীন সময়ের মধ্যেই নিজের প্রফেশনাল পোর্টফোলিও তৈরির নিচ্চয়তা!</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <RiLiveLine className="text-xl" />
                         <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <RiUserCommunityLine className="text-xl" />
+                        <p className="text-gray-800/90">Opportunity to Join Our supportive community.</p>
                      </li>
                   </ul>
                </div>

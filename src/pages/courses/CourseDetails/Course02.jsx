@@ -7,6 +7,7 @@ import { IoIosPeople, IoMdVideocam } from "react-icons/io";
 import { MdOutlineSupportAgent, MdOutlineViewModule } from "react-icons/md";
 import {  RiMessengerLine } from "react-icons/ri";
 import Faq2 from "../Faq2";
+import mentor2 from '../../../assets/mentor-2.png'
 import { AiOutlineYoutube } from "react-icons/ai";
 
 const Course02 = () => {
@@ -30,7 +31,7 @@ const Course02 = () => {
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
             <div className="flex space-x-4 items-end">
-               <img src="https://i.ibb.co.com/tMttd8HG/armankhan.jpg" alt="" className="w-28 h-28 object-cover rounded-lg" />
+               <img src={mentor2} alt="" className="w-28 h-28 object-cover rounded-lg" />
                <div>
                   <h4 className="text-xl font-semibold">MK Masjed Khan</h4>
                   <p className="font-light">Content Creation Expert</p>
