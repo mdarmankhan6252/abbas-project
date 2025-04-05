@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { IoIosPlay } from 'react-icons/io';
 import image55 from '../assets/course-1.jpg';
 import { FaUsers } from 'react-icons/fa';
@@ -7,11 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Card1 = ({ link }) => {
    return (
-      <motion.div
-         initial={{ scale: 0.4 }}
-         whileInView={{ scale: 1 }} 
-         viewport={{ once: false }} 
-         transition={{ duration: 0.8, ease: "easeOut" }}
+      <div
          className='bg-white p-6 rounded-lg space-y-3'
       >
          <img src={image55} alt="" className='w-full rounded-xl border border-slate-200' />
@@ -51,7 +46,7 @@ const Card1 = ({ link }) => {
                বিস্তারিত
             </Link>
          </div>
-      </motion.div>
+      </div>
    );
 };
 
