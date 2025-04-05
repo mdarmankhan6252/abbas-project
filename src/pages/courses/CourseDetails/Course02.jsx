@@ -77,6 +77,10 @@ const Course02 = () => {
                </ul>
             </div>
 
+            <div className="mb-6">
+               <Link target="_blank" to="https://drive.google.com/file/d/1Jnd2itFaGSPhtuk_ueaXMb-dqx224cmo/view?usp=sharing" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
+            </div>
+
             {/* faq question */}
             <Faq2 />
 

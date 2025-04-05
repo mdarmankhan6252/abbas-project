@@ -65,7 +65,7 @@ const Course01 = () => {
             </div>
 
             <div className="mb-6">
-               <Link to="/" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
+               <Link target="_blank" to="https://drive.google.com/file/d/1_dXT3WVxsjzmOt9dhDBD8pRjC6KIqyAr/view?usp=sharing" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
             </div>
 
             {/* faq question */}
