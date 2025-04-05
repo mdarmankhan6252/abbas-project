@@ -9,8 +9,8 @@ const Guide = () => {
             <p className="text-lg text-[#696666]">শুধু শেখাই নয়, আমরা আপনাকে দক্ষ করে তুলতে চাই। বাস্তব অভিজ্ঞতা, লাইভ প্রজেক্ট এবং এক্সপার্টদের গাইডলাইন নিয়ে আমরা আছি আপনার পাশে। নতুন কিছু শিখুন, দক্ষতা বাড়ান, নিজেকে প্রস্তুত করুন এবং আয় করুন!</p>
          </div>
          <div className="mt-6 md:mt-0">
-            <Link to="/" className="btn flex items-center space-x-2 max-w-52 justify-center grow">
-               <span>নিজেকে এগিয়ে</span> <MdArrowForward className="text-lg" />
+            <Link to="/course" className="btn flex items-center space-x-2 max-w-52 justify-center grow">
+               <span>শেখা শুরু করুন</span> <MdArrowForward className="text-lg" />
             </Link>
          </div>
 

@@ -16,20 +16,20 @@ const Card2 = ({ link }) => {
       >
          <img src={image55} alt="" className='w-full rounded-xl border border-gray-200' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
-            <del className='text-[#fa1111]'>5,000/</del>
-            <span className='text-green-600'>1,850/-</span>
+            <del className='text-[#fa1111]'>1,850/</del>
+            <span className='text-green-600'>1,250/-</span>
          </div>
-         <h4 className='text-xl font-semibold text-blue-950'>Contention creation pro.</h4>
-         <p className="font-primary text-[#828080] leading-7">{('আপনি যদি একজন সফল কন্টেন্ট ক্রিয়েটর হতে চান, তাহলে প্রফেশনাল, এনগেজিং এবং আই-ক্যাচিং কন্টেন্ট এর কোনো বিকল্প নেই। আপনার কন্টেন্ট যদি আকর্ষণীয় না হয়, তাহলে কন্টেন্ট ক্রিয়েশনের যাত্রা আপনার জন্য কখনোই সহজ হবে না। কিন্তু যদি আপনার কন্টেন্ট প্রফেশনাল এবং এনগেজিং হয়, তাহলে আপনি খুব দ্রুত ফেইসবুক এবং ইউটিউব থেকে আয়ের সুযোগ তৈরি করতে পারবেন!').slice(0, 70)}...</p>
+         <h4 className='text-xl font-semibold text-blue-950'>Contention Creation Pro</h4>
+         <p className="font-primary text-[#828080] leading-7">{('আপনি যদি একজন সফল কন্টেন্ট ক্রিয়েটর হতে চান, তাহলে প্রফেশনাল, এনগেজিং এবং আই-ক্যাচিং কন্টেন্ট এর কোনো বিকল্প নেই। আপনার কন্টেন্ট যদি আকর্ষণীয় না হয়, তাহলে কন্টেন্ট ক্রিয়েশনের যাত্রা আপনার জন্য কখনোই সহজ হবে না। কিন্তু যদি আপনার কন্টেন্ট প্রফেশনাল এবং এনগেজিং হয়, তাহলে আপনি খুব দ্রুত ফেইসবুক এবং ইউটিউব থেকে আয়ের সুযোগ তৈরি করতে পারবেন!').slice(0, 80)}...</p>
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
                <span className='p-1 text-xl bg-primary text-white rounded-full object-cover w-7 h-7 flex items-center justify-center'><IoIosPlay className='-mr-0.5' /></span>
-               <span className='text-sm font-light'>30+ Lessons</span>
+               <span className='text-sm font-light'>12+ Lessons</span>
             </div>
             <div className='flex items-center space-x-2'>
                <span className='p-1 text-xl bg-primary text-white rounded-full object-cover w-7 h-7 flex items-center justify-center'><FaUsers className='-mr-0.5' /></span>
-               <span className='text-sm font-light'>20+ Students</span>
+               <span className='text-sm font-light'>30+ Students</span>
             </div>
          </div>
          <div className='py-2'>
@@ -38,7 +38,7 @@ const Card2 = ({ link }) => {
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
-               <span className='text-sm font-light'>4.9</span>
+               <span className='text-sm font-light'>5.00</span>
                <div className='flex items-center space-x-1 text-amber-400'>
                   <IoStarSharp />
                   <IoStarSharp />

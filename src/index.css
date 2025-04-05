@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 
 @import "tailwindcss";
+@import "tailwindcss-animated";
 
 @theme {
    --font-primary: "Hind Siliguri", serif;
@@ -17,7 +18,7 @@
 }
 
 .btn:hover{
-   background-color: #F5682C;
+   background-color: #3253e7;
 }
 
 .nav > a.active{

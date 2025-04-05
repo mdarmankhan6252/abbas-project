@@ -16,20 +16,20 @@ const Card3 = ({ link }) => {
       >
          <img src={image55} alt="" className='w-full rounded-xl border border-gray-200' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
-            <del className='text-[#fa1111]'>2,500/</del>
+            <del className='text-[#fa1111]'>1,800/</del>
             <span className='text-green-600'>1,000/-</span>
          </div>
-         <h4 className='text-xl font-semibold text-blue-950'>Ai powered personal branding.</h4>
-         <p className="font-primary text-[#828080] leading-7">{('অনলাইন উদ্যোক্তাদের জন্য একটি অন্তর্জাতিক মানের একটি কোর্স যেখানে  কনটেন্ট ডেভেলপমেন্টের পাশাপাশি শেখানো হবে ফেসবুক মার্কেটিং এর Exclusive সব ট্রিকস!').slice(0, 70)}...</p>
+         <h4 className='text-xl font-semibold text-blue-950'>Ai Powered Personal Branding</h4>
+         <p className="font-primary text-[#828080] leading-7">{('আপনি যদি আপনার প্রফেশনাল ক্যারিয়ারকে এগিয়ে নিতে চান তাহলে নিজের প্রফেশনাল পোর্টফোলিও বিল্ডাপ এর কোন বিকল্প নেই। এই ডিজিটাল ওয়ার্ল্ড প্রতিনিয়ত আপডেট হচ্ছে , আপনি যদি নিজেকে আপডেটেড রাখতে না পারেন এবং তা অবশ্যই আপনার প্রফেশনাল লাইফে প্রকাশ করতে না পারেন তাহলে আপনি অন্যদের থেকে পিছিয়ে পড়বেন তা অবধারিত।').slice(0, 80)}...</p>
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
                <span className='p-1 text-xl bg-primary text-white rounded-full object-cover w-7 h-7 flex items-center justify-center'><IoIosPlay className='-mr-0.5' /></span>
-               <span className='text-sm font-light'>35+ Lessons</span>
+               <span className='text-sm font-light'>12+ Lessons</span>
             </div>
             <div className='flex items-center space-x-2'>
                <span className='p-1 text-xl bg-primary text-white rounded-full object-cover w-7 h-7 flex items-center justify-center'><FaUsers className='-mr-0.5' /></span>
-               <span className='text-sm font-light'>700+ Students</span>
+               <span className='text-sm font-light'>20+ Students</span>
             </div>
          </div>
          <div className='py-2'>
@@ -38,7 +38,7 @@ const Card3 = ({ link }) => {
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
-               <span className='text-sm font-light'>4.9</span>
+               <span className='text-sm font-light'>4.90</span>
                <div className='flex items-center space-x-1 text-amber-400'>
                   <IoStarSharp />
                   <IoStarSharp />

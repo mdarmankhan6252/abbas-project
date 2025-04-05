@@ -3,7 +3,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaYoutube } from 'reac
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { CiLocationOn } from 'react-icons/ci';
 import logo from '../assets/footer-logo.png'
-import bnr from '../assets/bnr.png'
+import payment from '../assets/payment.png'
 
 const Footer = () => {
    return (
@@ -15,7 +15,7 @@ const Footer = () => {
                <p className='font-light'>অনলাইন লাইভ স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম।</p>
                <p className='font-light'>কমিউনিটি -এর সাথে কানেক্টেড থাকতে</p>
                <div className='flex items-center space-x-2 *:text-2xl'>
-                  <Link to='https://www.facebook.com/profile.php?id=61572466610055'>
+                  <Link to='https://web.facebook.com/profile.php?id=61572527160547'>
                      <FaFacebookSquare className='text-white' />
                   </Link>
                   <Link to=''>
@@ -24,7 +24,7 @@ const Footer = () => {
                   <Link to=''>
                      <FaInstagramSquare className='text-white' />
                   </Link>
-                  <Link to=''>
+                  <Link to='https://www.youtube.com/@edukingbangladesh'>
                      <FaYoutube className='text-white' />
                   </Link>
                </div>
@@ -33,12 +33,12 @@ const Footer = () => {
                <h4 className='font-semibold'>Contact Us</h4>
                <div className=' flex items-center space-x-1  font-light'>
                   <MdOutlineMailOutline className='mt-1 text-xl' />
-                  <p>support@eduking.com</p>
+                  <p>info@edukingbd.com</p>
                </div>
 
                <div className=' flex items-center space-x-1  font-light'>
                   <CiLocationOn className='mt-1 text-xl' />
-                  <p>Ka-6/a, Navana Sylvania, Baridhara Road, Nadda, Gulshan-2, Dhaka-1212</p>
+                  <p>Mirpur, Dhaka, Bangladesh</p>
                </div>
 
             </div>
@@ -57,10 +57,13 @@ const Footer = () => {
          <div className='py-4'>
             <hr className='text-gray-400' />
          </div>
-         <div className='flex items-center justify-between max-w-7xl mx-auto px-3'>
-            <img src={bnr} alt="" className='w-40' />
-            <p className='font-light text-sm text-white'>All rights reserved - EduKingBd</p>
-            <p></p>
+         <div className='flex items-center justify-between sm:flex-row flex-col space-y-3 max-w-7xl mx-auto px-3'>
+            <div className='flex items-center justify-center'>
+               <img src={payment} alt="" className='w-80' />
+            </div>
+            <p className='font-light text-sm text-white'>
+               &copy; {new Date().getFullYear()} EduKing BD, All rights reserved.</p>
+
          </div>
 
       </footer>

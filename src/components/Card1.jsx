@@ -16,20 +16,20 @@ const Card1 = ({ link }) => {
       >
          <img src={image55} alt="" className='w-full rounded-xl border border-slate-200' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
-            <del className='text-[#fa1111]'>2,450/</del>
-            <span className='text-green-600'>1,000/-</span>
+            <del className='text-[#fa1111]'>1,499/</del>
+            <span className='text-green-600'>999/-</span>
          </div>
          <h4 className='text-xl font-semibold text-blue-950'>Mastering YouTube Shorts Secret</h4>
-         <p className="font-primary text-[#828080] leading-7">{("আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম!").slice(0, 70)}...</p>
+         <p className="font-primary text-[#828080] leading-7">{("আপনি কি অনলাইনে প্যাসিভ এবং হেলথি ইনকাম এর সহজ এবং কার্যকর উপায় খুঁজছেন? YouTube হতে পারে আপনার জন্য পারফেক্ট একটি প্ল্যাটফর্ম!").slice(0, 80)}...</p>
 
          <div className='flex items-center justify-between'>
             <div className='flex items-center space-x-2'>
                <span className='p-1 text-xl bg-primary text-white rounded-full object-cover w-7 h-7 flex items-center justify-center'><IoIosPlay className='-mr-0.5' /></span>
-               <span className='text-sm font-light'>35+ Lessons</span>
+               <span className='text-sm font-light'>12+ Lessons</span>
             </div>
             <div className='flex items-center space-x-2'>
                <span className='p-1 text-xl bg-primary text-white rounded-full object-cover w-7 h-7 flex items-center justify-center'><FaUsers className='-mr-0.5' /></span>
-               <span className='text-sm font-light'>700+ Students</span>
+               <span className='text-sm font-light'>20+ Students</span>
             </div>
          </div>
          <div className='py-2'>

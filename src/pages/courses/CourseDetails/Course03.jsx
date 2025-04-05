@@ -22,7 +22,7 @@ const Course03 = () => {
 
             <p className="text-gray-900/80 text-base text-justify">প্রফেশনালি মিডিয়া বায়িং সার্ভিস প্রদান কিংবা নিজের বিজনেস কে সামনে এগিয়ে নিয়ে যেতে ফেসবুক এডস এর যা কিছু জানা প্রয়োজন সবকিছুই পাচ্ছেন এক কোর্সে! মেন্টরশিপ তো থাকছেই!</p>
 
-            <Link to='/' className="md:hidden w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
+            <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
                কোর্সটি কিনুন
             </Link>
 
@@ -110,7 +110,7 @@ const Course03 = () => {
                      <del className="text-3xl font-semibold text-red-600">10,000</del>
                      <p className="text-3xl font-semibold text-green-600">4000/-</p>
                   </div>
-                  <Link to='/' className="md:block w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
+                  <Link to='/' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
                      কোর্সটি কিনুন
                   </Link>
                   <ul className="py-4 space-y-1.5">
@@ -147,7 +147,7 @@ const Course03 = () => {
                      <div className="relative pt-[56.25%]">
                         <iframe
                            className="absolute top-0 left-0 w-full h-full rounded-lg"
-                           src="https://www.youtube.com/embed/dT913aGGYFw?si=GqTto7TQpnRobwQG"
+                           src="https://www.youtube.com/embed/4Ybray2skrk?si=3kupUHKv64wKxA6E"
                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                            allowFullScreen
                         ></iframe>

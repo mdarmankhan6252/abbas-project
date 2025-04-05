@@ -24,7 +24,7 @@ const Course02 = () => {
 
             <p className="text-gray-900/80 text-base text-justify">আমাদের এই <span className="font-bold">Content Creation Pro</span> with <span className="font-bold">Life Changing Successful Content Creation Guideline</span> কোর্সটি আপনার জন্য যাতে পারে লক্ষ্য টাকা প্যাসিভ ইনকাম শুরু করার সুবর্ণ সুযোগ !</p>
 
-            <Link to='/' className="md:hidden w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
+            <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
                কোর্সটি কিনুন
             </Link>
 
@@ -132,7 +132,7 @@ const Course02 = () => {
                      <del className="text-3xl font-semibold text-red-600">10,000</del>
                      <p className="text-3xl font-semibold text-green-600">4000/-</p>
                   </div>
-                  <Link to='/' className="md:block w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
+                  <Link to='/' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
                      কোর্সটি কিনুন
                   </Link>
                   <ul className="py-4 space-y-1.5">
@@ -173,7 +173,7 @@ const Course02 = () => {
                      <div className="relative pt-[56.25%]">
                         <iframe
                            className="absolute top-0 left-0 w-full h-full rounded-lg"
-                           src="https://www.youtube.com/embed/dT913aGGYFw?si=GqTto7TQpnRobwQG"
+                           src="https://www.youtube.com/embed/4Ybray2skrk?si=3kupUHKv64wKxA6E"
                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                            allowFullScreen
                         ></iframe>

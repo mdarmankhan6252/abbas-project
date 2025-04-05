@@ -1,18 +1,18 @@
 import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
-import { useState } from "react";
 import { IoIosPeople, } from "react-icons/io";
 import { MdOutlineViewModule, MdSupportAgent } from "react-icons/md";
 import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
 import image from '../../../assets/course-1.jpg'
 import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
 import { CgCommunity } from "react-icons/cg";
+import Faq1 from "../Faq1";
 
 const Course01 = () => {
-   const [isOpen, setIsOpen] = useState(false);
+   // const [isOpen, setIsOpen] = useState(false);
 
-   const toggleModal = () => setIsOpen(!isOpen);
+   // const toggleModal = () => setIsOpen(!isOpen);
    return (
       <div className="pt-16 max-w-7xl mx-auto px-3 flex gap-10  flex-col-reverse md:flex-row">
          {/* about course */}
@@ -24,7 +24,7 @@ const Course01 = () => {
 
             <p className="text-gray-900/80 text-base text-justify">আমাদের Mastering Youtube Shorts Secret কোর্স আপনাকে শেখাবে কিভাবে আপনার মোবাইল ফোন ব্যবহার করেই সফল ইউটিউব চ্যানেল দাড় করা যায়  এবং কিভাবে ইউটিউব থেকে নিশ্চিতভাবে লাইফ টাইম  আয় করা যায়।</p>
 
-            <Link to='/' className="md:hidden w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
+            <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
                কোর্সটি কিনুন
             </Link>
 
@@ -64,8 +64,12 @@ const Course01 = () => {
                </ul>
             </div>
 
+            <div className="mb-6">
+               <Link to="/" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
+            </div>
+
             {/* faq question */}
-            <Faq />
+            <Faq1 />
 
             <div className="space-y-3 py-10">
                <h2 className="text-xl font-semibold text-gray-700">হট লাইন</h2>
@@ -104,7 +108,7 @@ const Course01 = () => {
                      <div className="absolute bg-black/50 top-0 left-0 right-0 bottom-0 rounded-lg"></div>
                      <div
                         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                        onClick={toggleModal}
+                        // onClick={toggleModal}
                      >
                         <div className="relative cursor-pointer">
                            {/* Animated border ring */}
@@ -121,7 +125,7 @@ const Course01 = () => {
                      <del className="text-3xl font-semibold text-red-600">10,000</del>
                      <p className="text-3xl font-semibold text-green-600">4000/-</p>
                   </div>
-                  <Link to='/' className="md:block w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
+                  <Link to='/' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
                      কোর্সটি কিনুন
                   </Link>
                   <ul className="py-4 space-y-1.5">
@@ -158,7 +162,7 @@ const Course01 = () => {
             </div>
 
             {/* Modal */}
-            {isOpen && (
+            {/* {isOpen && (
                <div
                   className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
                   onClick={toggleModal}
@@ -170,14 +174,14 @@ const Course01 = () => {
                      <div className="relative pt-[56.25%]">
                         <iframe
                            className="absolute top-0 left-0 w-full h-full rounded-lg"
-                           src="https://www.youtube.com/embed/dT913aGGYFw?si=GqTto7TQpnRobwQG"
+                           src="https://www.youtube.com/embed/4Ybray2skrk?si=3kupUHKv64wKxA6E"
                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                            allowFullScreen
                         ></iframe>
                      </div>
                   </div>
                </div>
-            )}
+            )} */}
          </div>
 
          <div className="fixed right-0 left-0 z-50 w-full bottom-0 md:hidden block">

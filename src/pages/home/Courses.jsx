@@ -7,7 +7,7 @@ const Courses = () => {
    return (
       <div className="mx-3">
          <div
-            className="py-20 rounded-lg max-w-7xl mx-auto px-6 border border-gray-200"
+            className="sm:py-12 py-6 rounded-lg max-w-7xl mx-auto px-6 border border-gray-200"
             style={{ background: 'radial-gradient(at center top, #d6e6ff 0%, #EFF4FC 100%)' }}
          >
             <motion.div
@@ -28,7 +28,7 @@ const Courses = () => {
                </motion.h1>
 
                <motion.p
-                  className="font-primary text-[#828080] leading-7 text-lg"
+                  className="font-primary text-[#3e3d3d] leading-7 text-lg"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
