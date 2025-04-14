@@ -27,7 +27,7 @@ const Course03 = () => {
             <p className="text-gray-900/80 text-base text-justify">এটি শুধু একটি কোর্স নয়—এটি আপনার ক্যারিয়ারকে এক নতুন উচ্চতায় নিয়ে যাওয়ার হাতিয়ার। AI-এর শক্তিকে কাজে লাগিয়ে গড়ে তুলুন একটি Strong Professional Portfolio। এখনই নিজেকে আপগ্রেড করুন এবং সফলতার পথে একধাপ এগিয়ে জান। Build Your Brand, Boost Your Career!</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
-               কোর্সটি কিনুন
+            ব্যাচে ভর্তি হোন
             </Link>
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>

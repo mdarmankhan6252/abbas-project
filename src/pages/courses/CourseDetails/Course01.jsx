@@ -25,7 +25,7 @@ const Course01 = () => {
             <p className="text-gray-900/80 text-base text-justify">আমাদের Mastering Youtube Shorts Secret কোর্স আপনাকে শেখাবে কিভাবে আপনার মোবাইল ফোন ব্যবহার করেই সফল ইউটিউব চ্যানেল দাড় করা যায়  এবং কিভাবে ইউটিউব থেকে নিশ্চিতভাবে লাইফ টাইম  আয় করা যায়।</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
-               কোর্সটি কিনুন
+               ব্যাচে ভর্তি হোন
             </Link>
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
@@ -64,6 +64,8 @@ const Course01 = () => {
                </ul>
             </div>
 
+            <h4 className='font-bold'>ডিটেইল জানতে কোর্স মডিউলে দেখুন, তাহলেই বুঝতে পারবেন এই কোর্সটি কতটা ভ্যালুয়েবল!</h4>
+
             <div className="mb-6">
                <Link target="_blank" to="https://drive.google.com/file/d/1_dXT3WVxsjzmOt9dhDBD8pRjC6KIqyAr/view?usp=sharing" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
             </div>
@@ -89,7 +91,7 @@ const Course01 = () => {
 
             <div className="md:text-2xl flex items-center space-x-2 pt-4">
                <IoCheckmarkCircleOutline className="text-primary" />
-               কিভাবে পেমেন্ট করবেন <Link to='/' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
+               কিভাবে পেমেন্ট করবেন <Link to='https://www.youtube.com/watch?v=5iqoaPLwgO0' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
             </div>
 
 
@@ -108,7 +110,7 @@ const Course01 = () => {
                      <div className="absolute bg-black/50 top-0 left-0 right-0 bottom-0 rounded-lg"></div>
                      <div
                         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                        // onClick={toggleModal}
+                     // onClick={toggleModal}
                      >
                         <div className="relative cursor-pointer">
                            {/* Animated border ring */}
@@ -126,16 +128,30 @@ const Course01 = () => {
                      <p className="text-3xl font-semibold text-green-600">4000/-</p>
                   </div>
                   <Link to='/' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
-                     কোর্সটি কিনুন
+                     ব্যাচে ভর্তি হোন
                   </Link>
                   <ul className="py-4 space-y-1.5">
                      <li className="flex items-center space-x-2">
                         <IoIosPeople className="text-xl" />
-                        <p className="text-gray-800/90">কোর্সটি করেছেন ১৭ জন</p>
+                        <p className="text-gray-800/90">কোর্সটি করেছেন ২০ জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <MdOutlineViewModule className="text-xl" />
-                        <p className="text-gray-800/90">১০ টি মডিউল</p>
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">১২ টি মডিউল</p>
+                     </li>
+
+                     <li className="flex items-center space-x-2">
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">১২+ অনলাইন ক্লাস</p>
+                     </li>
+
+                     <li className="flex items-center space-x-2">
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">২০+ রেকর্ডেড ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <AiFillForward className="text-xl" />
@@ -152,10 +168,6 @@ const Course01 = () => {
                      <li className="flex items-center space-x-2">
                         <CgCommunity className="text-xl" />
                         <p className="text-gray-800/90">Join Content creation supportive community.</p>
-                     </li>
-                     <li className="flex items-center space-x-2">
-                        <RiLiveLine className="text-xl" />
-                        <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
                      </li>
                   </ul>
                </div>
@@ -189,7 +201,7 @@ const Course01 = () => {
                <RiMessengerLine />
             </Link>
             <Link to='/' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
-               কোর্সটি কিনুন
+               ব্যাচে ভর্তি হোন
             </Link>
          </div>
       </div>
