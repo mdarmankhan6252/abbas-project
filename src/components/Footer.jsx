@@ -12,7 +12,7 @@ const Footer = () => {
          <div className='max-w-7xl mx-auto px-3 flex justify-between flex-col md:flex-row space-y-6 md:space-y-0 *:text-white'>
             <div className='md:basis-[35%] space-y-3'>
                <img src={logo} alt="logo" className='w-40' />
-               <p className='font-light'>অনলাইন লাইভ স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম।</p>
+               <p className='font-light'>অনলাইন লাইভ স্কিলস ডেভেলপমেন্ট প্ল্যাটফর্ম।</p>
                <p className='font-light'>কমিউনিটি -এর সাথে কানেক্টেড থাকতে</p>
                <div className='flex items-center space-x-2 *:text-2xl'>
                   <Link to='https://web.facebook.com/profile.php?id=61572527160547'>

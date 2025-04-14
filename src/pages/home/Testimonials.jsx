@@ -4,42 +4,84 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { IoStarSharp } from "react-icons/io5";
 
+import user1 from '../../assets/1.jpeg'
+import user2 from '../../assets/2.jpeg'
+import user3 from '../../assets/3.jpeg'
+import user4 from '../../assets/4.jpeg'
+import user5 from '../../assets/5.jpeg'
+import user6 from '../../assets/6.jpeg'
+import user7 from '../../assets/7.jpeg'
+import user8 from '../../assets/8.jpeg'
+import user9 from '../../assets/9.jpeg'
+import user10 from '../../assets/10.jpeg'
+import user11 from '../../assets/11.jpeg'
+
 const testimonials = [
    {
       id: 1,
-      name: "Sophie Moore",
-      photo: 'https://i.ibb.co.com/tMttd8HG/armankhan.jpg',
-      comment: "অন্য কোর্সগুলো ফেসবুকের টুলস, পেইজ সেটআপ এগুলো নিয়ে আলোচনা করে। কিন্তু কনটেন্ট নিয়ে যেই স্ট্রাগল করি, সেটার সমাধান কেউ দেয়না, দিলেও সেটা থেকে কখনই কোন উপকার পাইনি। কনটেন্ট কিং কোর্স করে এখন কনটেন্ট তৈরি সবচাইতে বড় নেশা হয়ে গেছে। মাথাতে এখন আর কনটেন্ট নিয়ে অনেক অনেক আইডিয়া। এখানের সাপোর্ট আর সাপ্তাহিক লাইভ ক্লাশ আমার দেখা সবচাইতে সেরা।"
+      name: "Aslam Hossain",
+      photo: user1,
+      comment: "CapCut Mobile এ এডিটিং শেখা এত সহজ হবে ভাবতেই পারিনি। ধন্যবাদ EduKing BD"
    },
    {
       id: 2,
-      name: "James Carter",
-      photo: 'https://iili.io/2DfYrLQ.jpg',
-      comment: "অন্য কোর্সগুলো ফেসবুকের টুলস, পেইজ সেটআপ এগুলো নিয়ে আলোচনা করে। কিন্তু কনটেন্ট নিয়ে যেই স্ট্রাগল করি, সেটার সমাধান কেউ দেয়না, দিলেও সেটা থেকে কখনই কোন উপকার পাইনি। কনটেন্ট কিং কোর্স করে এখন কনটেন্ট তৈরি সবচাইতে বড় নেশা হয়ে গেছে। মাথাতে এখন আর কনটেন্ট নিয়ে অনেক অনেক আইডিয়া। এখানের সাপোর্ট আর সাপ্তাহিক লাইভ ক্লাশ আমার দেখা সবচাইতে সেরা।"
+      name: "Sanjana Rahman",
+      photo: user2,
+      comment: "অনেক কিছু জেনেছি। হয়তো আরো কিছু সামনে জানতে পারবো। ধন্যবাদ Eduking BD"
    },
    {
       id: 3,
-      name: "Emily Johnson",
-      photo: 'https://iili.io/3qLqJPS.jpg',
-      comment: "অন্য কোর্সগুলো ফেসবুকের টুলস, পেইজ সেটআপ এগুলো নিয়ে আলোচনা করে। কিন্তু কনটেন্ট নিয়ে যেই স্ট্রাগল করি, সেটার সমাধান কেউ দেয়না, দিলেও সেটা থেকে কখনই কোন উপকার পাইনি। কনটেন্ট কিং কোর্স করে এখন কনটেন্ট তৈরি সবচাইতে বড় নেশা হয়ে গেছে। মাথাতে এখন আর কনটেন্ট নিয়ে অনেক অনেক আইডিয়া। এখানের সাপোর্ট আর সাপ্তাহিক লাইভ ক্লাশ আমার দেখা সবচাইতে সেরা।"
+      name: "Fainur Rahman",
+      photo: user3,
+      comment: "আমি একজন চাকরিজীবী। কাজের ফাঁকে মোবাইল দিয়ে ভিডিও বানানো ও এডিট শেখার সুযোগ করে দেওয়ার জন্য EduKing BD কে ধন্যবাদ। আপনারা সত্যিই চমৎকার কাজ করছেন!"
    },
    {
       id: 4,
-      name: "Michael Brown",
-      photo: 'https://iili.io/2DfYrLQ.jpg',
-      comment: "অন্য কোর্সগুলো ফেসবুকের টুলস, পেইজ সেটআপ এগুলো নিয়ে আলোচনা করে। কিন্তু কনটেন্ট নিয়ে যেই স্ট্রাগল করি, সেটার সমাধান কেউ দেয়না, দিলেও সেটা থেকে কখনই কোন উপকার পাইনি। কনটেন্ট কিং কোর্স করে এখন কনটেন্ট তৈরি সবচাইতে বড় নেশা হয়ে গেছে। মাথাতে এখন আর কনটেন্ট নিয়ে অনেক অনেক আইডিয়া। এখানের সাপোর্ট আর সাপ্তাহিক লাইভ ক্লাশ আমার দেখা সবচাইতে সেরা।"
+      name: "Kakon Akter",
+      photo: user4,
+      comment: "আলহামদুলিল্লাহ আমার কন্টেন্ট গুলো খুব তারাতাড়ি ভাইরাল হচ্ছে। ধন্যবাদ আপনাদের"
    },
    {
       id: 5,
-      name: "Olivia Davis",
-      photo: 'https://i.ibb.co.com/tMttd8HG/armankhan.jpg',
-      comment: "অন্য কোর্সগুলো ফেসবুকের টুলস, পেইজ সেটআপ এগুলো নিয়ে আলোচনা করে। কিন্তু কনটেন্ট নিয়ে যেই স্ট্রাগল করি, সেটার সমাধান কেউ দেয়না, দিলেও সেটা থেকে কখনই কোন উপকার পাইনি। কনটেন্ট কিং কোর্স করে এখন কনটেন্ট তৈরি সবচাইতে বড় নেশা হয়ে গেছে। মাথাতে এখন আর কনটেন্ট নিয়ে অনেক অনেক আইডিয়া। এখানের সাপোর্ট আর সাপ্তাহিক লাইভ ক্লাশ আমার দেখা সবচাইতে সেরা।"
+      name: "Sk Uzzal",
+      photo: user5,
+      comment: "অনেক অনেক ধন্যবাদ আপনাদের। আপনাদের গাইডলাইন পেয়ে অনেক উপকার হয়েছি।"
    },
    {
       id: 6,
-      name: "William Smith",
-      photo: 'https://iili.io/2DfYrLQ.jpg',
-      comment: "অন্য কোর্সগুলো ফেসবুকের টুলস, পেইজ সেটআপ এগুলো নিয়ে আলোচনা করে। কিন্তু কনটেন্ট নিয়ে যেই স্ট্রাগল করি, সেটার সমাধান কেউ দেয়না, দিলেও সেটা থেকে কখনই কোন উপকার পাইনি। কনটেন্ট কিং কোর্স করে এখন কনটেন্ট তৈরি সবচাইতে বড় নেশা হয়ে গেছে। মাথাতে এখন আর কনটেন্ট নিয়ে অনেক অনেক আইডিয়া। এখানের সাপোর্ট আর সাপ্তাহিক লাইভ ক্লাশ আমার দেখা সবচাইতে সেরা।"
+      name: "Ujjol Ahmed",
+      photo: user6,
+      comment: "আলহামদুলিল্লাহ খুব তারাতাড়ি ১০০০ সাবস্ক্রাইব করতে পেরেছি। ধন্যবাদ আপনাদের কে।"
+   },
+   {
+      id: 7,
+      name: "Imran Mahmud",
+      photo: user7,
+      comment: "ফেসবুক মনিটাইজেশন নিয়ে স্পষ্ট ধারণা পেয়েছি Thanks EduKing BD."
+   },
+   {
+      id: 8,
+      name: "Hasan Onue",
+      photo: user8,
+      comment: "আপনাদের সাপোর্ট এক কথায় অসাধারণ!, অনেক ধন্যবাদ।"
+   },
+   {
+      id: 9,
+      name: "MD Mehedi Hasan",
+      photo: user9,
+      comment: "কাজের ফাঁকে মোবাইল দিয়ে ভিডিও বানানো ও এডিট শেখার সুযোগ করে দেওয়ার জন্য EduKing BD কে ধন্যবাদ। আপনারা সত্যিই চমৎকার কাজ করছেন!"
+   },
+   {
+      id: 10,
+      name: "Rocky Ahmed",
+      photo: user10,
+      comment: "ফেসবুক টিপস, অ্যালগোরিদম নিয়ে অনেক কিছু জানতে পেরেছি অনেক ধন্যবাদ।"
+   },
+   {
+      id: 11,
+      name: "Romana Rony",
+      photo: user11,
+      comment: "Thanks EduKing BD. আপনাদের থেকে পাওয়া গাইডলাইন সত্যি আমার Content Creation এর যাত্রা অনেক সহজ করেছে। আমি আপনাদের ১০০০০+ কন্টেন্ট ক্রিয়েশন কমিউনিটি বিল্ডাপের পথচলায় সাথে আছি।"
    }
 ];
 
@@ -47,7 +89,7 @@ const Testimonials = () => {
    return (
       <div className="primaryBg pb-10 pt-2">
          <div className="text-center pb-16 pt-6">
-            <h2 className="text-3xl md:text-4xl font-primary font-bold text-gray-800">What our students says</h2>
+            <h2 className="text-3xl md:text-4xl font-primary font-bold text-gray-800">What Our Students Say</h2>
          </div>
          <div className="max-w-7xl mx-auto px-3">
             <Swiper
