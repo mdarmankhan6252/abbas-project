@@ -4,11 +4,15 @@ import { Play } from 'lucide-react';
 import { IoIosPeople, } from "react-icons/io";
 import { MdSupportAgent } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
+import { MdFlightClass, MdViewModule } from "react-icons/md";
+import { RiLiveLine } from "react-icons/ri";
 import image from '../../../assets/course-1.jpg'
 import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
 import { CgCommunity } from "react-icons/cg";
 import Faq1 from "../Faq1";
 import { useState } from "react";
+import { HiOutlineStatusOnline } from "react-icons/hi";
+import { FaHandHoldingDollar } from "react-icons/fa6";
 
 const Course01 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -136,21 +140,21 @@ const Course01 = () => {
                         <p className="text-gray-800/90">কোর্সটি করেছেন ২০ জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <HiOutlineStatusOnline className="text-xl" />
                         <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <MdViewModule className="text-xl" />
                         <p className="text-gray-800/90">১২ টি মডিউল</p>
                      </li>
 
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <MdFlightClass className="text-xl" />
                         <p className="text-gray-800/90">১২+ অনলাইন ক্লাস</p>
                      </li>
 
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <RiLiveLine className="text-xl" />
                         <p className="text-gray-800/90">২০+ রেকর্ডেড ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
@@ -160,6 +164,10 @@ const Course01 = () => {
                      <li className="flex items-center space-x-2">
                         <AiOutlineYoutube className="text-xl" />
                         <p className="text-gray-800/90">100k subscriber pauar secret tips</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <FaHandHoldingDollar className="text-xl" />
+                        <p className="text-gray-800/90">দ্রুত মনিটাইজশন পাওয়ার টিপস</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <MdSupportAgent className="text-xl" />

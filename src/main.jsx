@@ -19,11 +19,13 @@ import Course03 from './pages/courses/CourseDetails/Course03';
 import Course02 from './pages/courses/CourseDetails/Course02';
 import Contact from './pages/contact/Contact';
 import { Toaster } from 'react-hot-toast';
+import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -58,15 +60,15 @@ const router = createBrowserRouter([
         element: <EBook />
       },
       {
-        path: '/course-01',
+        path: '/Mastering-YouTube-Shorts-Secret',
         element: <Course01 />
       },
       {
-        path: '/course-02',
+        path: '/Contention-Creation-Pro',
         element: <Course02 />
       },
       {
-        path: '/course-03',
+        path: '/Ai-Powered-Personal-Branding',
         element: <Course03 />
       },
       {
