@@ -42,7 +42,7 @@ const Card2 = ({ link }) => {
                   <IoStarSharp />
                </div>
             </div>
-            <Link to='/course-02' className='btn transition-transform duration-200 hover:-translate-y-1'>বিস্তারিত</Link>
+            <Link to={link} className='btn transition-transform duration-200 hover:-translate-y-1'>বিস্তারিত</Link>
          </div>
       </div>
    );

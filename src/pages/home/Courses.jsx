@@ -30,9 +30,9 @@ const Courses = () => {
             >
                {/* course and it's path is here */}
 
-               <Card1 link='/course-01' />
-               <Card2 link='/course-02' />
-               <Card3 link='/course-03' />
+               <Card1 link='/Mastering-YouTube-Shorts-Secret' />
+               <Card2 link='/Contention-Creation-Pro' />
+               <Card3 link='/Ai-Powered-Personal-Branding' />
                
             </div>
          </div>

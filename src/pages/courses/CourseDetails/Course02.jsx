@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { useState } from "react";
 import { IoIosPeople, IoMdVideocam } from "react-icons/io";
-import { MdOutlineSupportAgent, MdOutlineViewModule } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
+import { MdFlightClass, MdOutlineSupportAgent, MdOutlineViewModule, MdSupportAgent, MdViewModule } from "react-icons/md";
+import { RiLiveLine, RiMessengerLine, RiUserCommunityFill } from "react-icons/ri";
 import Faq2 from "../Faq2";
 import mentor2 from '../../../assets/mentor-2.png'
-import { AiOutlineYoutube } from "react-icons/ai";
+import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
+import { HiOutlineStatusOnline } from 'react-icons/hi';
+import { FaHandHoldingDollar } from 'react-icons/fa6';
 
 const Course02 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -148,30 +150,26 @@ const Course02 = () => {
                         <p className="text-gray-800/90">কোর্সটি করেছেন ৩০ জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <HiOutlineStatusOnline className="text-xl" />
                         <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <MdViewModule className="text-xl" />
                         <p className="text-gray-800/90">১২ টি মডিউল</p>
                      </li>
 
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <MdFlightClass className="text-xl" />
                         <p className="text-gray-800/90">১২+ অনলাইন ক্লাস</p>
                      </li>
                      
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <RiLiveLine className="text-xl" />
                         <p className="text-gray-800/90">২০+ রেকর্ডেড ক্লাস</p>
                      </li>
-                     {/* ১২+ অনলাইন ক্লাস
-
-                     ২০+ রেকর্ডেড ক্লাস
-                     দ্রুত মনিটাইজশন পাওয়ার টিপস
-                      */}
+                     
                      <li className="flex items-center space-x-2">
-                        <IoMdVideocam className="text-xl" />
+                        <AiFillForward className="text-xl" />
                         <p className="text-gray-800/90">Free Resource file</p>
                      </li>
                      <li className="flex items-center space-x-2">
@@ -179,15 +177,15 @@ const Course02 = () => {
                         <p className="text-gray-800/90">দ্রুত ফলোয়ার্স ও সাবস্ক্রাইবার পাওয়ার সিক্রেটস </p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <AiOutlineYoutube className="text-xl" />
+                        <FaHandHoldingDollar className="text-xl" />
                         <p className="text-gray-800/90">দ্রুত মনিটাইজশন পাওয়ার টিপস</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <AiOutlineYoutube className="text-xl" />
+                        <RiUserCommunityFill className="text-xl" />
                         <p className="text-gray-800/90">Join Our Content Creation Supportive Community.</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <MdOutlineSupportAgent className="text-xl" />
+                        <MdSupportAgent className="text-xl" />
                         <p className="text-gray-800/90">24/7 support </p>
                      </li>
                   </ul>

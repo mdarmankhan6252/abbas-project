@@ -2,13 +2,15 @@ import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { IoIosPeople, } from "react-icons/io";
-import {  MdSupportAgent } from "react-icons/md";
-import {  RiMessengerLine } from "react-icons/ri";
+import { MdFlightClass, MdSupportAgent, MdViewModule } from "react-icons/md";
+import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
 import image from '../../../assets/course-1.jpg'
 import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
 import { CgCommunity } from "react-icons/cg";
 import Faq1 from "../Faq1";
 import { useState } from "react";
+import { HiOutlineStatusOnline } from "react-icons/hi";
+import { FaHandHoldingDollar } from "react-icons/fa6";
 
 const Course01 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -110,7 +112,7 @@ const Course01 = () => {
                      <div className="absolute bg-black/50 top-0 left-0 right-0 bottom-0 rounded-lg"></div>
                      <div
                         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                     onClick={toggleModal}
+                        onClick={toggleModal}
                      >
                         <div className="relative cursor-pointer">
                            {/* Animated border ring */}
@@ -127,7 +129,7 @@ const Course01 = () => {
                      <del className="text-3xl font-semibold text-red-600">2,000</del>
                      <p className="text-3xl font-semibold text-green-600">999/-</p>
                   </div>
-                  <Link  target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A'  className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
+                  <Link target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
                      ব্যাচে ভর্তি হোন
                   </Link>
                   <ul className="py-4 space-y-1.5">
@@ -136,21 +138,21 @@ const Course01 = () => {
                         <p className="text-gray-800/90">কোর্সটি করেছেন ২০ জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <HiOutlineStatusOnline className="text-xl" />
                         <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <MdViewModule className="text-xl" />
                         <p className="text-gray-800/90">১২ টি মডিউল</p>
                      </li>
 
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <MdFlightClass className="text-xl" />
                         <p className="text-gray-800/90">১২+ অনলাইন ক্লাস</p>
                      </li>
 
                      <li className="flex items-center space-x-2">
-                        <IoIosPeople className="text-xl" />
+                        <RiLiveLine className="text-xl" />
                         <p className="text-gray-800/90">২০+ রেকর্ডেড ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
@@ -160,6 +162,10 @@ const Course01 = () => {
                      <li className="flex items-center space-x-2">
                         <AiOutlineYoutube className="text-xl" />
                         <p className="text-gray-800/90">100k subscriber pauar secret tips</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <FaHandHoldingDollar className="text-xl" />
+                        <p className="text-gray-800/90">দ্রুত মনিটাইজশন পাওয়ার টিপস</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <MdSupportAgent className="text-xl" />
@@ -200,7 +206,7 @@ const Course01 = () => {
             <Link target="_blank" to='https://m.me/mdarmankhan6252' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
                <RiMessengerLine />
             </Link>
-            <Link  target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A'  className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
+            <Link target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
                ব্যাচে ভর্তি হোন
             </Link>
          </div>
