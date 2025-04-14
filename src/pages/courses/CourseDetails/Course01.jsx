@@ -2,17 +2,19 @@ import { IoCheckmarkCircleOutline, IoCheckmarkDoneOutline } from "react-icons/io
 import { Link } from "react-router-dom";
 import { Play } from 'lucide-react';
 import { IoIosPeople, } from "react-icons/io";
-import { MdOutlineViewModule, MdSupportAgent } from "react-icons/md";
-import { RiLiveLine, RiMessengerLine } from "react-icons/ri";
+import { MdSupportAgent } from "react-icons/md";
+import { RiMessengerLine } from "react-icons/ri";
 import image from '../../../assets/course-1.jpg'
 import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
 import { CgCommunity } from "react-icons/cg";
 import Faq1 from "../Faq1";
+import { useState } from "react";
 
 const Course01 = () => {
-   // const [isOpen, setIsOpen] = useState(false);
+   const [isOpen, setIsOpen] = useState(false);
 
-   // const toggleModal = () => setIsOpen(!isOpen);
+   const toggleModal = () => setIsOpen(!isOpen);
+
    return (
       <div className="pt-16 max-w-7xl mx-auto px-3 flex gap-10  flex-col-reverse md:flex-row">
          {/* about course */}
@@ -24,8 +26,8 @@ const Course01 = () => {
 
             <p className="text-gray-900/80 text-base text-justify">আমাদের Mastering Youtube Shorts Secret কোর্স আপনাকে শেখাবে কিভাবে আপনার মোবাইল ফোন ব্যবহার করেই সফল ইউটিউব চ্যানেল দাড় করা যায়  এবং কিভাবে ইউটিউব থেকে নিশ্চিতভাবে লাইফ টাইম  আয় করা যায়।</p>
 
-            <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
-               
+            <Link target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
+               ব্যাচে ভর্তি হোন
             </Link>
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
@@ -64,6 +66,8 @@ const Course01 = () => {
                </ul>
             </div>
 
+            <h4 className='font-bold'>ডিটেইল জানতে কোর্স মডিউলে দেখুন, তাহলেই বুঝতে পারবেন এই কোর্সটি কতটা ভ্যালুয়েবল!</h4>
+
             <div className="mb-6">
                <Link target="_blank" to="https://drive.google.com/file/d/1_dXT3WVxsjzmOt9dhDBD8pRjC6KIqyAr/view?usp=sharing" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
             </div>
@@ -73,7 +77,7 @@ const Course01 = () => {
 
             <div className="space-y-3 py-10">
                <h2 className="text-xl font-semibold text-gray-700">হট লাইন</h2>
-               <p>কোর্স সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন<span className="text-amber-700 font-semibold"><a href="tel:+8801776825224">+8801776825224</a></span></p>
+               <p>কোর্স সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন<span className="text-amber-700 font-semibold"><a href="tel:+8801776825224"> 01336585309</a></span></p>
             </div>
 
             <div>
@@ -89,10 +93,8 @@ const Course01 = () => {
 
             <div className="md:text-2xl flex items-center space-x-2 pt-4">
                <IoCheckmarkCircleOutline className="text-primary" />
-               কিভাবে পেমেন্ট করবেন <Link to='/' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
+               কিভাবে পেমেন্ট করবেন <Link target="_blank" to='https://www.youtube.com/watch?v=5iqoaPLwgO0' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
             </div>
-
-
          </div>
 
          {/*  */}
@@ -108,7 +110,7 @@ const Course01 = () => {
                      <div className="absolute bg-black/50 top-0 left-0 right-0 bottom-0 rounded-lg"></div>
                      <div
                         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                        // onClick={toggleModal}
+                        onClick={toggleModal}
                      >
                         <div className="relative cursor-pointer">
                            {/* Animated border ring */}
@@ -122,20 +124,34 @@ const Course01 = () => {
                   </div>
 
                   <div className="flex items-center justify-around py-4">
-                     <del className="text-3xl font-semibold text-red-600">10,000</del>
-                     <p className="text-3xl font-semibold text-green-600">4000/-</p>
+                     <del className="text-3xl font-semibold text-red-600">2,000</del>
+                     <p className="text-3xl font-semibold text-green-600">999/-</p>
                   </div>
-                  <Link to='/' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
-                     কোর্সটি কিনুন
+                  <Link target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A' className="md:block w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg hidden">
+                     ব্যাচে ভর্তি হোন
                   </Link>
                   <ul className="py-4 space-y-1.5">
                      <li className="flex items-center space-x-2">
                         <IoIosPeople className="text-xl" />
-                        <p className="text-gray-800/90">কোর্সটি করেছেন ১৭ জন</p>
+                        <p className="text-gray-800/90">কোর্সটি করেছেন ২০ জন</p>
                      </li>
                      <li className="flex items-center space-x-2">
-                        <MdOutlineViewModule className="text-xl" />
-                        <p className="text-gray-800/90">১০ টি মডিউল</p>
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
+                     </li>
+                     <li className="flex items-center space-x-2">
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">১২ টি মডিউল</p>
+                     </li>
+
+                     <li className="flex items-center space-x-2">
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">১২+ অনলাইন ক্লাস</p>
+                     </li>
+
+                     <li className="flex items-center space-x-2">
+                        <IoIosPeople className="text-xl" />
+                        <p className="text-gray-800/90">২০+ রেকর্ডেড ক্লাস</p>
                      </li>
                      <li className="flex items-center space-x-2">
                         <AiFillForward className="text-xl" />
@@ -153,16 +169,12 @@ const Course01 = () => {
                         <CgCommunity className="text-xl" />
                         <p className="text-gray-800/90">Join Content creation supportive community.</p>
                      </li>
-                     <li className="flex items-center space-x-2">
-                        <RiLiveLine className="text-xl" />
-                        <p className="text-gray-800/90">অনলাইন লাইভ ক্লাস</p>
-                     </li>
                   </ul>
                </div>
             </div>
 
             {/* Modal */}
-            {/* {isOpen && (
+            {isOpen && (
                <div
                   className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
                   onClick={toggleModal}
@@ -174,22 +186,22 @@ const Course01 = () => {
                      <div className="relative pt-[56.25%]">
                         <iframe
                            className="absolute top-0 left-0 w-full h-full rounded-lg"
-                           src="https://www.youtube.com/embed/4Ybray2skrk?si=3kupUHKv64wKxA6E"
+                           src="https://www.youtube.com/embed/SH5K2f0DqHc?si=KjG_-ppAW27PWt7M"
                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                            allowFullScreen
                         ></iframe>
                      </div>
                   </div>
                </div>
-            )} */}
+            )}
          </div>
 
          <div className="fixed right-0 left-0 z-50 w-full bottom-0 md:hidden block">
             <Link target="_blank" to='https://m.me/mdarmankhan6252' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
                <RiMessengerLine />
             </Link>
-            <Link to='/' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
-               কোর্সটি কিনুন
+            <Link target="_blank" to='https://forms.gle/FRCBsXPBqhnVe6g7A' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
+               ব্যাচে ভর্তি হোন
             </Link>
          </div>
       </div>
