@@ -28,7 +28,7 @@ const EBook = () => {
                </div>
                <div className="flex items-center justify-between p-4 gap-6">
                   <button onClick={openModal} className="bg-gradient-to-r from-primary to-[#1253cd] hover:from-[#1253cd] hover:to-primary duration-300 text-white rounded-lg p-4 grow text-center">ইবুকটি পড়ুন</button>
-                  <Link to="/e-book" className="border p-4 rounded-lg hover:bg-black hover:text-white grow text-center">অর্ডার করুন</Link>
+                  <Link target="_blank" to="https://www.facebook.com/profile.php?id=100078660249558" className="border p-4 rounded-lg hover:bg-black hover:text-white grow text-center">অর্ডার করুন</Link>
                </div>
             </div>
          </div>
@@ -44,7 +44,7 @@ const EBook = () => {
 
             <p className="font-light text-lg max-w-4xl mx-auto">এই বইটি শুধু একটি বই নয় এটি আপনার জীবনকে পরিবর্তন করার এক চমৎকার উপায় এ বইটি আপনাকে পথ দেখাবে,  পড়ুন আর আপনার জীবন বদলে ফেলুন</p>
 
-            <Link target="_blank" to="https://www.facebook.com/profile.php?id=61572466610055" className="inline-block bg-black text-white py-3 md:py-4 px-10 mt-6 rounded-lg hover:bg-transparent border-2 hover:border-white text-sm md:text-[16px]">যোগাযোগ করুন</Link>
+            <Link target="_blank" to="https://www.facebook.com/profile.php?id=100078660249558" className="inline-block bg-black text-white py-3 md:py-4 px-10 mt-6 rounded-lg hover:bg-transparent border-2 hover:border-white text-sm md:text-[16px]">যোগাযোগ করুন</Link>
          </div>
 
          {isModalOpen && (
