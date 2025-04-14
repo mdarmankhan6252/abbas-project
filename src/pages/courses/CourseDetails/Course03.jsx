@@ -27,7 +27,7 @@ const Course03 = () => {
             <p className="text-gray-900/80 text-base text-justify">এটি শুধু একটি কোর্স নয়—এটি আপনার ক্যারিয়ারকে এক নতুন উচ্চতায় নিয়ে যাওয়ার হাতিয়ার। AI-এর শক্তিকে কাজে লাগিয়ে গড়ে তুলুন একটি Strong Professional Portfolio। এখনই নিজেকে আপগ্রেড করুন এবং সফলতার পথে একধাপ এগিয়ে জান। Build Your Brand, Boost Your Career!</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
-            ব্যাচে ভর্তি হোন
+               ব্যাচে ভর্তি হোন
             </Link>
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
@@ -78,6 +78,8 @@ const Course03 = () => {
                </ul>
             </div>
 
+            <h4 className='font-bold'>ডিটেইল জানতে কোর্স মডিউলে দেখুন, তাহলেই বুঝতে পারবেন এই কোর্সটি কতটা ভ্যালুয়েবল!</h4>
+
             <div className="mb-6">
                <Link target="_blank" to="https://drive.google.com/file/d/1LJatwa4VRxn8lfLe5BcLLM-GVCO6q-0A/view?usp=sharing" className="inline-block btn">কোর্স মডিউল দেখুন</Link>
             </div>
@@ -87,7 +89,7 @@ const Course03 = () => {
 
             <div className="space-y-3 py-10">
                <h2 className="text-xl font-semibold text-gray-700">হট লাইন</h2>
-               <p>কোর্স সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন <span className="text-amber-700 font-semibold">+880 1776-825-224</span></p>
+               <p>কোর্স সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন<span className="text-amber-700 font-semibold"><a href="tel:+8801776825224"> 01336585309</a></span></p>
             </div>
 
             <div>
@@ -100,9 +102,9 @@ const Course03 = () => {
                </ul>
             </div>
 
-            <div className="text-lg md:text-2xl flex items-center space-x-2 pt-4">
+            <div className="md:text-2xl flex items-center space-x-2 pt-4">
                <IoCheckmarkCircleOutline className="text-primary" />
-               কিভাবে পেমেন্ট করবেন <Link to='/' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
+               কিভাবে পেমেন্ট করবেন <Link target="_blank" to='https://www.youtube.com/watch?v=5iqoaPLwgO0' className="text-primary pl-2 hover:underline">এই ভিডিওটি দেখুন</Link>
             </div>
 
 

@@ -11,7 +11,7 @@ const Card1 = ({ link }) => {
       >
          <img src={image55} alt="" className='w-full rounded-xl border border-slate-200' />
          <div className='flex items-center text-2xl space-x-3 font-semibold'>
-            <del className='text-[#fa1111]'>1,499/</del>
+            <del className='text-[#fa1111]'>2,000/</del>
             <span className='text-green-600'>999/-</span>
          </div>
          <h4 className='text-xl font-semibold text-blue-950'>Mastering YouTube Shorts Secret</h4>
