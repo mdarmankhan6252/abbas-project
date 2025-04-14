@@ -25,7 +25,7 @@ const Course01 = () => {
             <p className="text-gray-900/80 text-base text-justify">আমাদের Mastering Youtube Shorts Secret কোর্স আপনাকে শেখাবে কিভাবে আপনার মোবাইল ফোন ব্যবহার করেই সফল ইউটিউব চ্যানেল দাড় করা যায়  এবং কিভাবে ইউটিউব থেকে নিশ্চিতভাবে লাইফ টাইম  আয় করা যায়।</p>
 
             <Link to='/' className="md:hidden w-full py-4 bg-primary text-white text-center font-semibold text-xl hover:bg-violet-700 rounded-lg block">
-               কোর্সটি কিনুন
+               
             </Link>
 
             <h3 className="text-2xl font-bold pt-10">কোর্স মেন্টর</h3>
