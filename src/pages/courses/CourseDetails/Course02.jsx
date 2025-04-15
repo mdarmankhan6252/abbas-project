@@ -10,7 +10,7 @@ import Faq2 from "../Faq2";
 import mentor2 from '../../../assets/mentor-2.png'
 import { AiFillForward, AiOutlineYoutube } from "react-icons/ai";
 import { HiOutlineStatusOnline } from 'react-icons/hi';
-import { FaHandHoldingDollar } from 'react-icons/fa6';
+import { FaHandHoldingDollar, FaWhatsapp } from 'react-icons/fa6';
 
 const Course02 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -162,12 +162,12 @@ const Course02 = () => {
                         <MdFlightClass className="text-xl" />
                         <p className="text-gray-800/90">১২+ অনলাইন ক্লাস</p>
                      </li>
-                     
+
                      <li className="flex items-center space-x-2">
                         <RiLiveLine className="text-xl" />
                         <p className="text-gray-800/90">২০+ রেকর্ডেড ক্লাস</p>
                      </li>
-                     
+
                      <li className="flex items-center space-x-2">
                         <AiFillForward className="text-xl" />
                         <p className="text-gray-800/90">Free Resource file</p>
@@ -216,8 +216,8 @@ const Course02 = () => {
          </div>
 
          <div className="fixed right-0 left-0 z-50 w-full bottom-0 md:hidden block">
-            <Link target="_blank" to='https://m.me/mdarmankhan6252' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
-               <RiMessengerLine />
+            <Link target="_blank" to='https://wa.me/+8801336585309' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
+               <FaWhatsapp />
             </Link>
             <Link target='_blank' to='https://forms.gle/LSdNYAvdWXsprbLy9' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
                ব্যাচে ভর্তি হোন

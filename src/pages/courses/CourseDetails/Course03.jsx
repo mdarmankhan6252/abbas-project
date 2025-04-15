@@ -8,6 +8,7 @@ import { RiLiveLine, RiMessengerLine, RiUserCommunityLine } from "react-icons/ri
 import Faq3 from "../Faq3";
 import course3 from '../../../assets/course-3.jpg'
 import mentor3 from '../../../assets/mentor3.jpg'
+import { FaWhatsapp } from "react-icons/fa6";
 
 const Course03 = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -192,8 +193,8 @@ const Course03 = () => {
          </div>
 
          <div className="fixed right-0 left-0 z-50 w-full bottom-0 md:hidden block">
-            <Link target="_blank" to='https://m.me/mdarmankhan6252' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
-               <RiMessengerLine />
+            <Link target="_blank" to='https://wa.me/+8801336585309' className="text-4xl bg-gradient-to-br from-pink-600 to-violet-500 text-white inline-block p-2 rounded-full absolute right-2 bottom-10">
+               <FaWhatsapp />
             </Link>
             <Link to='/' className=" w-full py-4 bg-green-600 text-white text-center font-semibold text-xl hover:bg-violet-700  block">
                কোর্সটি কিনুন
